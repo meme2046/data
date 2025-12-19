@@ -104,7 +104,7 @@
 	},
 	"json.format.enable": true,
 	"workbench.iconTheme": "vscode-icons",
-	"workbench.colorTheme": "GitHub Light Colorblind (Beta)",
+	"workbench.colorTheme": "Noctis Minimus",
 	"terminal.integrated.enableMultiLinePasteWarning": "auto",
 	// 📝vscode自带css规则配置
 	"css.validate": true,
