@@ -1,0 +1,14 @@
+[
+	{ "key": "bitcoin", "value": "BTC" },
+	{ "key": "ethereum", "value": "ETH" },
+	{ "key": "uniswap", "value": "UNI" },
+	{ "key": "binancecoin", "value": "BNB" },
+	{ "key": "dogecoin", "value": "DOGE" },
+	{ "key": "pepe", "value": "PEPE" },
+	{ "key": "bitget-token", "value": "BGB" },
+	{ "key": "fartcoin", "value": "FARTCOIN" },
+	{ "key": "turbo", "value": "TURBO" },
+	{ "key": "popcat", "value": "POPCAT" },
+	{ "key": "arweave", "value": "AR" },
+	{ "key": "bianrensheng", "value": "币安人生" }
+]
