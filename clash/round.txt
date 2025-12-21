@@ -1,6 +1,0 @@
-DOMAIN,api.binance.com
-DOMAIN,fapi.binance.com
-DOMAIN,api.bitget.com
-DOMAIN,api.gateio.ws
-DOMAIN-SUFFIX,solana.com
-DOMAIN-SUFFIX,jup.ag
