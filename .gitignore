@@ -162,3 +162,7 @@ data/flower_data/
 ETT/
 checkpoints/
 results/
+
+
+node_modules
+pnpm-lock.yaml
