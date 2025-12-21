@@ -1,100 +1,102 @@
-PROCESS-NAME,Thunder
-PROCESS-NAME,80launch.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,ThunderVIP.exe
-PROCESS-NAME,quark.exe
-PROCESS-NAME,百度翻译.exe
-PROCESS-NAME,百度翻译
-PROCESS-NAME,优游国际.exe
-PROCESS-NAME,优游国际
-PROCESS-NAME,yuanbao
-PROCESS-NAME,WeChat.exe
-PROCESS-NAME,QQPCMgrUpdate.exe
-PROCESS-NAME,QQ.exe
-PROCESS-NAME,yuanbao.exe
-PROCESS-NAME,TrafficMonitor.exe
-PROCESS-NAME,localsend_app.exe
-PROCESS-NAME,hexinlauncher.exe
-PROCESS-NAME,BaiduNetdisk.exe
-PROCESS-NAME,ShareX.exe
-PROCESS-NAME,喜马拉雅.exe
-PROCESS-NAME,喜马拉雅
-PROCESS-NAME,genymotion.exe
-PROCESS-NAME,cngame.exe
-PROCESS-NAME,quark.exe
-DOMAIN-SUFFIX,3322.net
-DOMAIN-SUFFIX,ifconfig.co
-DOMAIN-SUFFIX,cursor.email
-DOMAIN-SUFFIX,tata-api.com
-DOMAIN-SUFFIX,ai-yyds.com
-DOMAIN-SUFFIX,gitee.com
-DOMAIN-SUFFIX,dingtalk.com
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,97yrbl.com
-DOMAIN-SUFFIX,surrit.com
-DOMAIN,time.windows.com
-DOMAIN-SUFFIX,rinhome.com
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,npmmirror.com
-DOMAIN-SUFFIX,alibabacloud.com
-DOMAIN-SUFFIX,6v520.com
-IP-CIDR6,fe80::/10
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-DOMAIN,btrace.qq.com
-DOMAIN,dldir1.qq.com
-DOMAIN,slife.xy-asia.com
-DOMAIN,soup.v.qq.com
-DOMAIN,vweixinf.tc.qq.com
-DOMAIN,weixin110.qq.com
-DOMAIN,wup.imtt.qq.com
-DOMAIN-SUFFIX,iot-tencent.com
-DOMAIN-SUFFIX,lbs.gtimg.com
-DOMAIN-SUFFIX,map.qq.com
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,up-hl.3g.qq.com
-DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wechatlegal.net
-DOMAIN-SUFFIX,wechatos.net
-DOMAIN-SUFFIX,wechatpay.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-SUFFIX,weixinsxy.com
-DOMAIN-SUFFIX,wx.gtimg.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-SUFFIX,wxs.qq.com
-DOMAIN-SUFFIX,yun-hl.3g.qq.com
-IP-ASN,132203
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,doubanio.com
-DOMAIN-SUFFIX,oneplus.com
-DOMAIN-SUFFIX,ub88game.com
-DOMAIN-SUFFIX,ubgj.vip
-DOMAIN-SUFFIX,sixyin.com
-DOMAIN-SUFFIX,gejiba.com
-DOMAIN-SUFFIX,wangdu.site
-DOMAIN-SUFFIX,us.kg
-DOMAIN-SUFFIX,dpdns.org
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,sina.cn
-DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,qy.net
-DOMAIN-SUFFIX,miaozhen.com
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,imooc.com
-DOMAIN-SUFFIX,jzit.top
-DOMAIN-SUFFIX,5211game.com
-DOMAIN-SUFFIX,quark.cn
-DOMAIN,clash.razord.top
-DOMAIN,yacd.haishan.me
-DOMAIN-SUFFIX,dnsapi.cn
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-KEYWORD,baidu
-DOMAIN-SUFFIX,immersivetranslate.cn
-
+payload:
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,80launch.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,ThunderVIP.exe
+  - PROCESS-NAME,quark.exe
+  - PROCESS-NAME,百度翻译.exe
+  - PROCESS-NAME,百度翻译
+  - PROCESS-NAME,优游国际.exe
+  - PROCESS-NAME,优游国际
+  - PROCESS-NAME,yuanbao
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,QQPCMgrUpdate.exe
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,yuanbao.exe
+  - PROCESS-NAME,TrafficMonitor.exe
+  - PROCESS-NAME,localsend_app.exe
+  - PROCESS-NAME,hexinlauncher.exe
+  - PROCESS-NAME,BaiduNetdisk.exe
+  - PROCESS-NAME,ShareX.exe
+  - PROCESS-NAME,喜马拉雅.exe
+  - PROCESS-NAME,喜马拉雅
+  - PROCESS-NAME,genymotion.exe
+  - PROCESS-NAME,cngame.exe
+  - PROCESS-NAME,quark.exe
+  - DOMAIN-SUFFIX,3322.net
+  - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,cursor.email
+  - DOMAIN-SUFFIX,tata-api.com
+  - DOMAIN-SUFFIX,ai-yyds.com
+  - DOMAIN-SUFFIX,gitee.com
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,97yrbl.com
+  - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN,time.windows.com
+  - DOMAIN-SUFFIX,rinhome.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,npmmirror.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,6v520.com
+  - IP-CIDR6,fe80::/10
+  - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+  - DOMAIN,btrace.qq.com
+  - DOMAIN,dldir1.qq.com
+  - DOMAIN,slife.xy-asia.com
+  - DOMAIN,soup.v.qq.com
+  - DOMAIN,vweixinf.tc.qq.com
+  - DOMAIN,weixin110.qq.com
+  - DOMAIN,wup.imtt.qq.com
+  - DOMAIN-SUFFIX,iot-tencent.com
+  - DOMAIN-SUFFIX,lbs.gtimg.com
+  - DOMAIN-SUFFIX,map.qq.com
+  - DOMAIN-SUFFIX,qlogo.cn
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,up-hl.3g.qq.com
+  - DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatos.net
+  - DOMAIN-SUFFIX,wechatpay.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,weixin.qq.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,weixinsxy.com
+  - DOMAIN-SUFFIX,wx.gtimg.com
+  - DOMAIN-SUFFIX,wx.qq.com
+  - DOMAIN-SUFFIX,wxapp.tc.qq.com
+  - DOMAIN-SUFFIX,wxs.qq.com
+  - DOMAIN-SUFFIX,yun-hl.3g.qq.com
+  - IP-ASN,132203
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,oneplus.com
+  - DOMAIN-SUFFIX,ub88game.com
+  - DOMAIN-SUFFIX,ubgj.vip
+  - DOMAIN-SUFFIX,sixyin.com
+  - DOMAIN-SUFFIX,gejiba.com
+  - DOMAIN-SUFFIX,wangdu.site
+  - DOMAIN-SUFFIX,us.kg
+  - DOMAIN-SUFFIX,dpdns.org
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,sina.cn
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,miaozhen.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,imooc.com
+  - DOMAIN-SUFFIX,jzit.top
+  - DOMAIN-SUFFIX,5211game.com
+  - DOMAIN-SUFFIX,quark.cn
+  - DOMAIN,clash.razord.top
+  - DOMAIN,yacd.haishan.me
+  - DOMAIN-SUFFIX,dnsapi.cn
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-KEYWORD,baidu
+  - DOMAIN-SUFFIX,immersivetranslate.cn
+  -
+  -
