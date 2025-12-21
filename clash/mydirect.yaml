@@ -39,7 +39,6 @@ payload:
   - DOMAIN-SUFFIX,npmmirror.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,6v520.com
-  - IP-CIDR6,fe80::/10
   - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
   - DOMAIN,btrace.qq.com
   - DOMAIN,dldir1.qq.com
@@ -70,7 +69,6 @@ payload:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com
   - DOMAIN-SUFFIX,wxs.qq.com
   - DOMAIN-SUFFIX,yun-hl.3g.qq.com
-  - IP-ASN,132203
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,oneplus.com
@@ -98,5 +96,3 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-SUFFIX,immersivetranslate.cn
-  -
-  -
