@@ -5,9 +5,7 @@ payload:
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,quark.exe
   - PROCESS-NAME,百度翻译.exe
-  - PROCESS-NAME,百度翻译
   - PROCESS-NAME,优游国际.exe
-  - PROCESS-NAME,优游国际
   - PROCESS-NAME,WeChat.exe
   - PROCESS-NAME,QQPCMgrUpdate.exe
   - PROCESS-NAME,QQ.exe
@@ -18,7 +16,6 @@ payload:
   - PROCESS-NAME,BaiduNetdisk.exe
   - PROCESS-NAME,ShareX.exe
   - PROCESS-NAME,喜马拉雅.exe
-  - PROCESS-NAME,喜马拉雅
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,quark.exe
