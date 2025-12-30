@@ -1,6 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,cip.cc
-  - DOMAIN-SUFFIX,ip.gs
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Thunder.exe
