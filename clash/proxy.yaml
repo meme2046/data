@@ -7,7 +7,6 @@ payload:
   - PROCESS-NAME,Code.exe
   - PROCESS-NAME,Cursor.exe
   - PROCESS-NAME,YoutubeDownloader.exe
-  - DOMAIN-SUFFIX,cip.cc
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
