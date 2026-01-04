@@ -1,7 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
-  # ip⤴︎
+  # ip查询⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Thunder.exe
