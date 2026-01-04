@@ -142,5 +142,5 @@ payload:
   - DOMAIN-SUFFIX,table-generator.de
   - DOMAIN-SUFFIX,blocknative.com
   - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,wallet.okx.ac
-  - DOMAIN-SUFFIX,wallet.okx.cab
+  - DOMAIN-SUFFIX,okx.ac
+  - DOMAIN-SUFFIX,okx.cab
