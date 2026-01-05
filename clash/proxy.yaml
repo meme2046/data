@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN-SUFFIX,ifconfig.me
+  - DOMAIN-SUFFIX,cip.cc
+  # ip查询⤴︎
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
   - PROCESS-NAME,httpie.exe
@@ -7,7 +10,6 @@ payload:
   - PROCESS-NAME,Code.exe
   - PROCESS-NAME,Cursor.exe
   - PROCESS-NAME,YoutubeDownloader.exe
-  - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ip.gs
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
