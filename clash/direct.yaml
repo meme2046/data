@@ -22,7 +22,6 @@ payload:
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,quark.exe
-  - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,cursor.email
   - DOMAIN-SUFFIX,tata-api.com
   - DOMAIN-SUFFIX,ai-yyds.com
