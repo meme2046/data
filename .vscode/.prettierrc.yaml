@@ -23,7 +23,7 @@ embeddedLanguageFormatting: auto
 plugins:
   - "@prettier/plugin-xml"
   - prettier-plugin-toml
-  - prettier-plugin-properties
+  - prettier-plugin-sh
 # xml
 xmlWhitespaceSensitivity: strict # Options are `strict`, `preserve`, and `ignore`. You may want `ignore` or `preserve`,default `strict`,default `strict`
 xmlSortAttributesByKey: true
@@ -36,6 +36,9 @@ reorderKeys: true # 按字母顺序重新排列未用空行分隔的键, default
 # continuationIndent: 2 # default `2`
 # override
 overrides:
+  - files:
+      - "*.env"
+    parser: sh
   - files:
       - "*.txt"
     options:
