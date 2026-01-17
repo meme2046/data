@@ -4,6 +4,7 @@ payload:
   # ip查询⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
+  - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,quark.exe
