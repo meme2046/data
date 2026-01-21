@@ -95,3 +95,4 @@ payload:
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,gov.cn
+  - DOMAIN-SUFFIX,antgroup.com
