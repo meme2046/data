@@ -2,6 +2,8 @@ payload:
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
   # ip查询⤴︎
+  - DOMAIN-SUFFIX,memeniu.xyz
+  # myDomain ⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Trae CN.exe
