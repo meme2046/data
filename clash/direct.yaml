@@ -99,3 +99,4 @@ payload:
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
   - DOMAIN-SUFFIX,douban.com
+  - DOMAIN-SUFFIX,doubanio.com
