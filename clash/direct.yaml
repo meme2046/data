@@ -1,8 +1,11 @@
 payload:
   - IP-CIDR, 127.0.0.0/8
   - IP-CIDR, 192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
+  - DOMAIN-SUFFIX,cn
+  - GEOSITE,cn
   # ip查询⤴︎
   - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain ⤴︎
