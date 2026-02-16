@@ -99,7 +99,6 @@ payload:
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
   - DOMAIN-SUFFIX,douban.com
-  - DOMAIN-SUFFIX,jsdelivr.net
   - IP-CIDR,127.0.0.0/8
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,10.0.0.0/8
