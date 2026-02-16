@@ -1,13 +1,7 @@
 payload:
   - PROCESS-NAME,WeChat.exe
-  - IP-CIDR,127.0.0.0/8
-  - IP-CIDR,192.168.0.0/16
-  - IP-CIDR,10.0.0.0/8
-  - GEOIP,CN
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
-  - DOMAIN-SUFFIX,cn
-  - GEOSITE,cn
   # ip查询⤴︎
   - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain ⤴︎
@@ -105,3 +99,9 @@ payload:
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
   - DOMAIN-SUFFIX,douban.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - GEOSITE,cn
+  - DOMAIN-SUFFIX,cn
