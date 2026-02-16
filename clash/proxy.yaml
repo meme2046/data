@@ -147,7 +147,6 @@ payload:
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,okx.ac
   - DOMAIN-SUFFIX,okx.cab
-  - GEOIP,US
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-KEYWORD,google
   - GEOSITE,youtube
