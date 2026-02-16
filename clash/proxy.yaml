@@ -1,4 +1,6 @@
 payload:
+  - PROCESS-NAME,Telegram.exe
+  - GEOIP,US
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,cip.cc
