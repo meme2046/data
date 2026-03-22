@@ -7,6 +7,7 @@ payload:
   # myDomain ⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
+  - PROCESS-NAME,dontstarve_rail_x64.exe
   - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
@@ -95,6 +96,7 @@ payload:
   - DOMAIN-SUFFIX,dnsapi.cn
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-KEYWORD,baidu
+  - DOMAIN-KEYWORD,wegame
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
