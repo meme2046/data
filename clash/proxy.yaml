@@ -153,3 +153,6 @@ payload:
   - DOMAIN-SUFFIX,dg5.biz
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,android.clients.google.com
