@@ -26,6 +26,7 @@ payload:
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,quark.exe
+  - PROCESS-NAME,steam.exe
   - PROCESS-NAME,Steam++.exe
   - PROCESS-NAME,xunyou.exe
   - DOMAIN-SUFFIX,cursor.email
