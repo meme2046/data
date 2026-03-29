@@ -28,6 +28,7 @@ payload:
   - PROCESS-NAME,quark.exe
   - PROCESS-NAME,steam.exe
   - PROCESS-NAME,Steam++.exe
+  - PROCESS-NAME,steamwebhelper.exe
   - PROCESS-NAME,xunyou.exe
   - DOMAIN-SUFFIX,cursor.email
   - DOMAIN-SUFFIX,tata-api.com
