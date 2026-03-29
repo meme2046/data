@@ -4,7 +4,13 @@ payload:
   - DOMAIN-SUFFIX,ip.gs
   # ip查询⤴︎
   - DOMAIN-SUFFIX,memeniu.xyz
-  # myDomain ⤴︎
+  # myDomain⤴︎
+  - PROCESS-NAME,steam.exe
+  - PROCESS-NAME,Steam++.exe
+  - PROCESS-NAME,steamwebhelper.exe
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-KEYWORD,steam
+  # steam⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,dontstarve_rail_x64.exe
@@ -26,9 +32,6 @@ payload:
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,quark.exe
-  - PROCESS-NAME,steam.exe
-  - PROCESS-NAME,Steam++.exe
-  - PROCESS-NAME,steamwebhelper.exe
   - PROCESS-NAME,xunyou.exe
   - DOMAIN-SUFFIX,cursor.email
   - DOMAIN-SUFFIX,tata-api.com
@@ -101,7 +104,6 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,wegame
-  - DOMAIN-KEYWORD,steam
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
