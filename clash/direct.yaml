@@ -7,8 +7,8 @@ payload:
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
   - PROCESS-NAME,steamwebhelper.exe
-  - PROCESS-NAME,steam.exe
-  - DOMAIN-SUFFIX,steampowered.com
+  # - PROCESS-NAME,steam.exe
+  # - DOMAIN-SUFFIX,steampowered.com
   # - DOMAIN-KEYWORD,steam
   # steam⤴︎
   - PROCESS-NAME,Thunder
