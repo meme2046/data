@@ -5,11 +5,11 @@ payload:
   # ip查询⤴︎
   - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain⤴︎
-  - PROCESS-NAME,steam.exe
+  # - PROCESS-NAME,steam.exe
   - PROCESS-NAME,Steam++.exe
   - PROCESS-NAME,steamwebhelper.exe
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-KEYWORD,steam
+  # - DOMAIN-SUFFIX,steampowered.com
+  # - DOMAIN-KEYWORD,steam
   # steam⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
