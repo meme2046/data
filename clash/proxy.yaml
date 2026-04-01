@@ -7,6 +7,7 @@ payload:
   # ip查询⤴︎
   - PROCESS-NAME,steam.exe
   - DOMAIN-SUFFIX,steampowered.com
+  - PROCESS-NAME,steamwebhelper.exe
   - DOMAIN-KEYWORD,steam
   # steam⤴︎
   - PROCESS-NAME,Binance.exe

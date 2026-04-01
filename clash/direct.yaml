@@ -6,7 +6,6 @@ payload:
   - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
-  - PROCESS-NAME,steamwebhelper.exe
   # steam加速器⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
