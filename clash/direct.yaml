@@ -7,10 +7,6 @@ payload:
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
   - PROCESS-NAME,steamwebhelper.exe
-  # - PROCESS-NAME,steam.exe
-  # - DOMAIN-SUFFIX,steampowered.com
-  # - DOMAIN-KEYWORD,steam
-  # steam⤴︎
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,dontstarve_rail_x64.exe

@@ -5,6 +5,10 @@ payload:
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,cip.cc
   # ip查询⤴︎
+  - PROCESS-NAME,steam.exe
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-KEYWORD,steam
+  # steam⤴︎
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
   - PROCESS-NAME,httpie.exe
