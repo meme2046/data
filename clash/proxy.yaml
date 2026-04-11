@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,cip.cc
   # ip查询⤴︎
+  - DOMAIN-SUFFIX,memeniu.xyz
+  # myDomain⤴︎
   - PROCESS-NAME,steam.exe
   - DOMAIN-SUFFIX,steampowered.com
   - PROCESS-NAME,steamwebhelper.exe

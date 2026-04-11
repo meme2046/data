@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
   # ip查询⤴︎
-  - DOMAIN-SUFFIX,memeniu.xyz
+  # - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
   # steam加速器⤴︎
