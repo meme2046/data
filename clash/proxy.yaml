@@ -12,6 +12,9 @@ payload:
   - PROCESS-NAME,steamwebhelper.exe
   - DOMAIN-KEYWORD,steam
   # steam⤴︎
+  - DOMAIN-SUFFIX,kleientertainment.com
+  - DOMAIN-SUFFIX,klei.com
+  # 饥荒⤴︎
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
   - PROCESS-NAME,httpie.exe
