@@ -10,6 +10,7 @@ payload:
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,dontstarve_rail_x64.exe
+  - PROCESS-NAME,dontstarve_steam_x64.exe
   - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
