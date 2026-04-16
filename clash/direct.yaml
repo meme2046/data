@@ -15,6 +15,7 @@ payload:
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,quark.exe
+  - PROCESS-NAME,语雀.exe
   - PROCESS-NAME,百度翻译.exe
   - PROCESS-NAME,优游国际.exe
   - PROCESS-NAME,QQPCMgrUpdate.exe
