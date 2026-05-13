@@ -7,6 +7,8 @@ payload:
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
   # steam加速器⤴︎
+  - DOMAIN,qiniup.com
+  - DOMAIN,qiniu.com
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,dontstarve_rail_x64.exe
