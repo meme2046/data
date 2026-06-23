@@ -29,7 +29,7 @@ payload:
   - DOMAIN-SUFFIX,st.dl.eccdnz.com # CDN 节点直连
   - DOMAIN-SUFFIX,edgesuite.net # CDN 节点直连
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
-  - DOMAIN-SUFFIX,klei.com
+  - DOMAIN,lobby-v2.klei.com
   # steam⤴︎
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
