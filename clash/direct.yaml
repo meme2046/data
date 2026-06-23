@@ -10,7 +10,9 @@ payload:
   - DOMAIN,api.memeniu.xyz
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
-  # steam加速器⤴︎
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamconnecttest.com
+  # steam⤴︎
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
   - PROCESS-NAME,dst-admin-go.exe
