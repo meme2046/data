@@ -10,6 +10,7 @@ payload:
   - DOMAIN,api.memeniu.xyz
   # myDomain⤴︎
   - PROCESS-NAME,Steam++.exe
+  - DOMAIN,test.steampowered.com
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamconnecttest.com
   # steam⤴︎
