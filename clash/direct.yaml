@@ -20,6 +20,7 @@ payload:
   - DOMAIN-KEYWORD,dst-
   # 饥荒⤴︎
   - PROCESS-NAME,Thunder
+  - PROCESS-NAME,DingTalk.exe
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,Thunder.exe
