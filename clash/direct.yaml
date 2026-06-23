@@ -13,6 +13,9 @@ payload:
   - DOMAIN,test.steampowered.com
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamconnecttest.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamstatic.com
   # steam⤴︎
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
