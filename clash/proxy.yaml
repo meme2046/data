@@ -6,7 +6,6 @@ payload:
   # ip查询⤴︎
   - DOMAIN-SUFFIX,memeniu.xyz
   # myDomain⤴︎
-  - PROCESS-NAME,steam.exe
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   # - PROCESS-NAME,steamwebhelper.exe
