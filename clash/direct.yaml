@@ -41,7 +41,6 @@ payload:
   - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
-  - PROCESS-NAME,quark.exe
   - PROCESS-NAME,语雀.exe
   - PROCESS-NAME,百度翻译.exe
   - PROCESS-NAME,优游国际.exe
@@ -56,7 +55,6 @@ payload:
   - PROCESS-NAME,喜马拉雅.exe
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
-  - PROCESS-NAME,quark.exe
   - PROCESS-NAME,xunyou.exe
   - DOMAIN-SUFFIX,cursor.email
   - DOMAIN-SUFFIX,tata-api.com
