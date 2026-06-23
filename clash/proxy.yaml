@@ -8,7 +8,6 @@ payload:
   # myDomain⤴︎
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
-  - PROCESS-NAME,steamwebhelper.exe
   # steam⤴︎
   - DOMAIN-SUFFIX,klei.com
   # klei⤴︎
