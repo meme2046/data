@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - PROCESS-NAME,steamwebhelper.exe
-  - DOMAIN-KEYWORD,steam
   # steam⤴︎
   - DOMAIN-SUFFIX,klei.com
   # 饥荒⤴︎
