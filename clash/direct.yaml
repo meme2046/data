@@ -31,7 +31,7 @@ payload:
   - DOMAIN-SUFFIX,st.dl.eccdnx.com # CDN 节点直连
   - DOMAIN-SUFFIX,st.dl.eccdnz.com # CDN 节点直连
   - DOMAIN-SUFFIX,edgesuite.net # CDN 节点直连
-  - PROCESS-NAME,steamwebhelper.exe
+  # - PROCESS-NAME,steamwebhelper.exe
   # steam⤴︎
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
