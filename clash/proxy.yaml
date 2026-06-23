@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   # - PROCESS-NAME,steamwebhelper.exe
   # steam⤴︎
-  - DOMAIN-SUFFIX,klei.com
   # 饥荒⤴︎
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
