@@ -1,4 +1,10 @@
 payload:
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,127.0.0.0/8
+  - DOMAIN,localhost
+  - DOMAIN-SUFFIX,local
   - PROCESS-NAME,WeChat.exe
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
@@ -127,6 +133,3 @@ payload:
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,antgroup.com
   - DOMAIN-SUFFIX,douban.com
-  - IP-CIDR,127.0.0.0/8
-  - IP-CIDR,192.168.0.0/16
-  - IP-CIDR,10.0.0.0/8
