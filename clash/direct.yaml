@@ -28,9 +28,10 @@ payload:
   - DOMAIN-SUFFIX,st.dl.eccdnx.com # CDN 节点直连
   - DOMAIN-SUFFIX,st.dl.eccdnz.com # CDN 节点直连
   - DOMAIN-SUFFIX,edgesuite.net # CDN 节点直连
-  - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
-  - DOMAIN,lobby-v2.klei.com
   # steam⤴︎
+  - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
+  - DOMAIN-WILDCARD,'lobby*.klei.com'
+  # klei⤴︎
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
   - PROCESS-NAME,dst-admin-go.exe

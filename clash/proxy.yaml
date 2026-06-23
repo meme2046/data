@@ -11,6 +11,7 @@ payload:
   # - PROCESS-NAME,steamwebhelper.exe
   # steam⤴︎
   - DOMAIN-SUFFIX,klei.com
+  # klei⤴︎
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
