@@ -3,21 +3,16 @@ payload:
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,local
   - PROCESS-NAME,WeChat.exe
+  # ⬇️IP查询
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,myexternalip.com
   - DOMAIN-SUFFIX,ip-api.com
-  # ip查询⤴︎
-  - DOMAIN,api.memeniu.xyz
-  # myDomain⤴︎
-  # - DST-PORT,11001
-  # - DST-PORT,31001
-  # - DST-PORT,41001
-  # - DST-PORT,11002
-  # - DST-PORT,31002
-  # - DST-PORT,41002
+  # ⬆️IP查询
+  - DOMAIN,api.memeniu.xyz # ⬅️myDomain
+  # ⬇️steam, 游戏相关
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
   - DOMAIN-SUFFIX,steamconnecttest.com # 第三方Steam连通性测试域名，工具探测用，直连即可
@@ -28,13 +23,10 @@ payload:
   - DOMAIN-SUFFIX,st.dl.eccdnx.com # CDN 节点直连
   - DOMAIN-SUFFIX,st.dl.eccdnz.com # CDN 节点直连
   - DOMAIN-SUFFIX,edgesuite.net # CDN 节点直连
-  # - PROCESS-NAME,steamwebhelper.exe
-  # steam⤴︎
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
-  # - DOMAIN-SUFFIX,klei.com
-  # klei⤴︎
+  # ⬆️steam, 游戏相关
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
   - PROCESS-NAME,dst-admin-go.exe

@@ -2,16 +2,14 @@ payload:
   - PROCESS-NAME,Telegram.exe
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,cip.cc
-  # ip查询⤴︎
-  - DOMAIN-SUFFIX,memeniu.xyz
-  # myDomain⤴︎
+  - DOMAIN-SUFFIX,cip.cc # ⬅️ip查询
+  - DOMAIN-SUFFIX,memeniu.xyz # ⬅️myDomain
+  # ⬇️steam, 游戏相关
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
-  # steam⤴︎
   - DOMAIN-SUFFIX,klei.com
-  # 👇饥荒相关
   - DOMAIN-SUFFIX,bnw3w.com
+  # ⬆️steam, 游戏相关
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
