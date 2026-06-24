@@ -36,6 +36,8 @@ payload:
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
+  - DOMAIN-SUFFIX,klei.com,DIRECT
+  - DOMAIN-SUFFIX,kleienterprises.com,DIRECT
   # - DOMAIN-SUFFIX,klei.com
   # klei⤴︎
   - DOMAIN-SUFFIX,qiniup.com
