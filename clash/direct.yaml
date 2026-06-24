@@ -38,6 +38,7 @@ payload:
   - DOMAIN-WILDCARD,dst.*.klei.com
   - DOMAIN-SUFFIX,klei.com
   - DOMAIN-SUFFIX,kleienterprises.com
+  - DOMAIN-SUFFIX,kleiusercontent.com
   # - DOMAIN-SUFFIX,klei.com
   # klei⤴︎
   - DOMAIN-SUFFIX,qiniup.com
