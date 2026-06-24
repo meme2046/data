@@ -3,6 +3,7 @@ payload:
   - IP-CIDR,10.0.0.0/8
   - IP-CIDR,172.16.0.0/12
   - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,125.80.0.0/16
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,local
   - PROCESS-NAME,WeChat.exe
