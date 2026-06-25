@@ -1,6 +1,6 @@
 payload:
-  - DOMAIN-SUFFIX,lkqd.net
-  - DOMAIN-SUFFIX,360yield.com
-  - DOMAIN-SUFFIX,exp-tas.com
-  - DOMAIN-SUFFIX,pub.network
+  # - DOMAIN-SUFFIX,lkqd.net
+  # - DOMAIN-SUFFIX,360yield.com
+  # - DOMAIN-SUFFIX,exp-tas.com
+  # - DOMAIN-SUFFIX,pub.network
   - IP-CIDR,140.205.70.0/24 # ⬅️quark统计、上报、更新
