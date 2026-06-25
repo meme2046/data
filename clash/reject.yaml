@@ -1,5 +1,6 @@
 payload:
   # - DOMAIN-SUFFIX,lkqd.net
+  - DOMAIN,disabled.invalid
   - DOMAIN-SUFFIX,360yield.com
   - DOMAIN-SUFFIX,exp-tas.com
   # - DOMAIN-SUFFIX,pub.network
