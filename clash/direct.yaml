@@ -30,7 +30,7 @@ payload:
   - PROCESS-NAME,dst-admin-go.exe
   - PROCESS-NAME,dontstarve_rail_x64.exe
   - PROCESS-NAME,dontstarve_steam_x64.exe
-  - DOMAIN-KEYWORD,miraclesses
+  # - DOMAIN-KEYWORD,miraclesses
   # ⬆️steam, 游戏相关
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
