@@ -8,7 +8,6 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
-  - DOMAIN-SUFFIX,bnw3w.com
   # ⬆️steam, 游戏相关
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
@@ -29,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,pi.com
   - DOMAIN-SUFFIX,minepi.com
   - DOMAIN-SUFFIX,applovin.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,okcoin.com
   - DOMAIN-SUFFIX,v1.mk
   - DOMAIN-SUFFIX,pancakeswap.finance
