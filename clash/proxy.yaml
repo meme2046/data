@@ -4,7 +4,7 @@ payload:
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cip.cc # ⬅️ip查询
   - DOMAIN-SUFFIX,memeniu.xyz # ⬅️myDomain dnspod cdn
-  - DOMAIN-SUFFIX,meme.us.kg # ⬅️myDomain cloudflare cdn
+  - DOMAIN-SUFFIX,us.kg # ⬅️myDomain cloudflare cdn
   # ⬇️steam, 游戏相关
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
