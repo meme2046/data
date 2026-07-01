@@ -33,6 +33,7 @@ payload:
   # - DOMAIN-KEYWORD,miraclesses
   # ⬆️steam, 游戏相关
   - DOMAIN-SUFFIX,mypikpak.com # ⬅️pikpak
+  - DOMAIN-SUFFIX,msdxcdn.microsoft.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
