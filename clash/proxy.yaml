@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
   # ⬆️steam, 游戏相关
+  - DOMAIN-SUFFIX,mypikpak.com # ⬅️pikpak
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe

@@ -31,7 +31,7 @@ payload:
   - PROCESS-NAME,dontstarve_steam_x64.exe
   # - DOMAIN-KEYWORD,miraclesses
   # ⬆️steam, 游戏相关
-  - DOMAIN-SUFFIX,mypikpak.com # ⬅️pikpak
+  - DOMAIN-SUFFIX,bing.com # ⬅️pikpak
   - DOMAIN-SUFFIX,msdxcdn.microsoft.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,qiniup.com
