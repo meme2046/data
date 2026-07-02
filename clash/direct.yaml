@@ -1,5 +1,5 @@
 payload:
-  # - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
+  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
   - IP-CIDR,140.205.70.0/24 # ⬅️quark
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,local
