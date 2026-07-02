@@ -12,7 +12,6 @@ payload:
   - DOMAIN-SUFFIX,myexternalip.com
   - DOMAIN-SUFFIX,ip-api.com
   # ⬆️IP查询
-  - DOMAIN,api.memeniu.xyz # ⬅️myDomain
   # ⬇️steam, 游戏相关
   - DOMAIN,test.steampowered.com # ⬅️Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # ⬅️Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
