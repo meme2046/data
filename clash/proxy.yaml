@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
   - DOMAIN-SUFFIX,cip.cc # ip查询
+  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
   - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
   - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
   # Crypto⇡
