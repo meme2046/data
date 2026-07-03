@@ -123,7 +123,6 @@ payload:
   - DOMAIN,yacd.haishan.me
   - DOMAIN-SUFFIX,dnsapi.cn
   - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,wegame
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,gov.cn

@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,metamask.io
   - DOMAIN-SUFFIX,dexscreener.com
   - DOMAIN-SUFFIX,pi.com
@@ -56,7 +57,6 @@ payload:
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,landasky.com
   - DOMAIN-SUFFIX,inmobi.com
-  - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,saawsedge.com
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,doubleclick.net
