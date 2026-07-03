@@ -1,7 +1,12 @@
 payload:
   - DOMAIN-SUFFIX,jsdelivr.net # jsdelivr
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
   - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
-  - IP-CIDR,140.205.70.0/24 # quark
+  - DOMAIN,clash.razord.top # clash面板
+  - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
