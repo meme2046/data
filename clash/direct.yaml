@@ -3,6 +3,7 @@ payload:
   - IP-CIDR,140.205.70.0/24 # ⬅️quark
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,jsdelivr.net # ⬅️jsdelivr
   - PROCESS-NAME,WeChat.exe
   # ⬇️IP查询
   - DOMAIN-SUFFIX,3322.net
