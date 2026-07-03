@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,ident.me
   # IP查询⇡
   - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
