@@ -4,8 +4,6 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,10.0.0.0/8
   - IP-CIDR,172.16.0.0/12
-  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
-  - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN,localhost
@@ -14,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ip-api.com
   # IP查询⇡
+  - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
   - DOMAIN-SUFFIX,steamconnecttest.com # 第三方Steam连通性测试域名，工具探测用，直连即可

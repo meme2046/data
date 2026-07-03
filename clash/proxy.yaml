@@ -5,11 +5,13 @@ payload:
   - DOMAIN,api.gateio.ws
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
+  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
+  - DOMAIN-SUFFIX,cip.cc # ip查询
+  - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
+  - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
   # Crypto⇡
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,cip.cc # ip查询
-  - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
