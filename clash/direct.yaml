@@ -4,7 +4,7 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,10.0.0.0/8
   - IP-CIDR,172.16.0.0/12
-  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
+  # - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN,localhost

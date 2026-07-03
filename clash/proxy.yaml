@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
   # Crypto⇡
+  - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段, 光猫没有NAT回流, 走代理
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cip.cc # ip查询
