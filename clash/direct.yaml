@@ -27,6 +27,7 @@ payload:
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
   # steam, 游戏相关⇡
+  - DOMAIN-SUFFIX,yangshipin.com # 央视频
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,msdxcdn.microsoft.com
   - DOMAIN-SUFFIX,alicdn.com
