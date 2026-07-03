@@ -3,12 +3,11 @@ payload:
   - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
   - IP-CIDR,140.205.70.0/24 # quark
   - DOMAIN,localhost
-  # IP查询
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
   - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ip-api.com
-  # steam, 游戏相关
+  # IP查询⇡
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
   - DOMAIN-SUFFIX,steamconnecttest.com # 第三方Steam连通性测试域名，工具探测用，直连即可
@@ -22,9 +21,7 @@ payload:
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
-  - PROCESS-NAME,dst-admin-go.exe
-  - PROCESS-NAME,dontstarve_rail_x64.exe
-  - PROCESS-NAME,dontstarve_steam_x64.exe
+  # steam, 游戏相关⇡
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,msdxcdn.microsoft.com
   - DOMAIN-SUFFIX,alicdn.com

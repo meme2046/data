@@ -1,16 +1,14 @@
 payload:
-  - PROCESS-NAME,Telegram.exe
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,cip.cc # ⬅️ip查询
-  - DOMAIN-SUFFIX,memeniu.xyz # ⬅️myDomain dnspod cdn
-  - DOMAIN-SUFFIX,us.kg # ⬅️myDomain cloudflare cdn
-  # ⬇️steam, 游戏相关
+  - DOMAIN-SUFFIX,cip.cc # ip查询
+  - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
+  - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
-  # ⬆️steam, 游戏相关
-  - DOMAIN-SUFFIX,mypikpak.com # ⬅️pikpak
+  # steam, 游戏相关⇡
+  - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,HTTPie.exe
@@ -20,7 +18,6 @@ payload:
   - PROCESS-NAME,Code.exe
   - PROCESS-NAME,Cursor.exe
   - PROCESS-NAME,YoutubeDownloader.exe
-  - DOMAIN-SUFFIX,ip.gs
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,bitget.com
