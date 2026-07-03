@@ -17,7 +17,7 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ident.me
   # IP查询⇡
-  - PROCESS-NAME,dontstarve_steam_x64.exe
+  # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
   - DOMAIN-SUFFIX,steamconnecttest.com # 第三方Steam连通性测试域名，工具探测用，直连即可
