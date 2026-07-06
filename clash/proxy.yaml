@@ -1,12 +1,8 @@
 payload:
-  - DOMAIN,api.binance.com
-  - DOMAIN,fapi.binance.com
-  - DOMAIN,api.bitget.com
-  - DOMAIN,api.gateio.ws
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
-  - DOMAIN-SUFFIX,cip.cc # ip查询
   # Crypto⇡
+  - DOMAIN-SUFFIX,cip.cc # ip查询
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,steampowered.com
@@ -16,12 +12,6 @@ payload:
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
-  - PROCESS-NAME,HTTPie.exe
-  - PROCESS-NAME,httpie.exe
-  - PROCESS-NAME,https.exe
-  - PROCESS-NAME,http.exe
-  - PROCESS-NAME,Code.exe
-  - PROCESS-NAME,Cursor.exe
   - PROCESS-NAME,YoutubeDownloader.exe
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
@@ -72,7 +62,6 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,jup.ag
   - DOMAIN-SUFFIX,privy.io
   - DOMAIN-SUFFIX,mcfby.com
   - DOMAIN-SUFFIX,mccloud.gay
