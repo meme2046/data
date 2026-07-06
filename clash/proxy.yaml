@@ -22,22 +22,22 @@ payload:
   - DOMAIN-SUFFIX,turboswap.org
   - DOMAIN-SUFFIX,pump.fun
   - DOMAIN-SUFFIX,binance.org
+  - DOMAIN-SUFFIX,aave.com
+  - DOMAIN-SUFFIX,compound.finance
+  - DOMAIN-SUFFIX,1inch.io
+  - DOMAIN-SUFFIX,1inch.com
   # Crypto⇡
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
   # steam, 游戏相关⇡
-  - DOMAIN-SUFFIX,cip.cc # ip查询
-  - DOMAIN-SUFFIX,whoer.net # ip查询
-  - DOMAIN-SUFFIX,ping0.cc # ip查询
+  - DOMAIN-SUFFIX,cip.cc
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,ping0.cc
   # ip查询⇡
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
-  # dev⇡
-  - DOMAIN-SUFFIX,mypikpak.com # pikpak
-  - PROCESS-NAME,mailsync.exe
-  - PROCESS-NAME,YoutubeDownloader.exe
   - DOMAIN-SUFFIX,arweave.org
   - DOMAIN-SUFFIX,arweave.net
   - DOMAIN-SUFFIX,ar-io.dev
@@ -46,43 +46,13 @@ payload:
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,digitalplat.org
+  # dev⇡
+  - DOMAIN-SUFFIX,mypikpak.com # pikpak
+  - PROCESS-NAME,mailsync.exe
+  - PROCESS-NAME,YoutubeDownloader.exe
+  - DOMAIN-SUFFIX,tableconvert.com
+  - DOMAIN-SUFFIX,telegram.org
   # common⇡
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   # happy⇡
-
-  - DOMAIN-SUFFIX,uma.xyz
-  - DOMAIN-SUFFIX,aave.com
-  - DOMAIN-SUFFIX,compound.finance
-  - DOMAIN-SUFFIX,morpho.org
-  - DOMAIN-SUFFIX,myavlive.com
-  - DOMAIN-SUFFIX,surrit.com
-  - DOMAIN-SUFFIX,llamarpc.com
-  - DOMAIN-SUFFIX,nodies.app
-  - DOMAIN-SUFFIX,zksync.io
-  - DOMAIN-SUFFIX,merkl.xyz
-  - DOMAIN-SUFFIX,1inch.io
-  - DOMAIN-SUFFIX,1inch.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,innerworks.me
-  - DOMAIN-SUFFIX,moonpay.com
-  - DOMAIN-SUFFIX,tableconvert.com
-  - DOMAIN-SUFFIX,table-generator.de
-  - DOMAIN-SUFFIX,blocknative.com
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,okx.ac
-  - DOMAIN-SUFFIX,okx.cab
-  - DOMAIN-SUFFIX,google.com
-  - DOMAIN-KEYWORD,google
-  - GEOSITE,youtube
-  - DOMAIN-SUFFIX,dg5.biz
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,xbox360.com
-  - DOMAIN-SUFFIX,gamepass.com
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxab.com
-  - DOMAIN-SUFFIX,xboxab.net
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN-SUFFIX,xboxservices.com
