@@ -1,4 +1,5 @@
 payload:
+  # Crypto⇣
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,bitget.com
@@ -26,15 +27,15 @@ payload:
   - DOMAIN-SUFFIX,compound.finance
   - DOMAIN-SUFFIX,1inch.io
   - DOMAIN-SUFFIX,1inch.com
-  # Crypto⇡
+  # steam, 游戏相关⇣
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
-  # steam, 游戏相关⇡
+  # ip查询⇣
   - DOMAIN-SUFFIX,cip.cc
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,ping0.cc
-  # ip查询⇡
+  # dev⇣
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
@@ -46,7 +47,7 @@ payload:
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,digitalplat.org
-  # dev⇡
+  # common⇣
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,YoutubeDownloader.exe
@@ -54,4 +55,3 @@ payload:
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
-  # common⇡
