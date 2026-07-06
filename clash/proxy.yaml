@@ -4,30 +4,29 @@ payload:
   - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
+  - DOMAIN-SUFFIX,metamask.io
+  - DOMAIN-SUFFIX,dexscreener.com
+  - DOMAIN-SUFFIX,pi.com # pi network
+  - DOMAIN-SUFFIX,minepi.com # pi network
+  - DOMAIN-SUFFIX,pancakeswap.finance
+  - DOMAIN-SUFFIX,pancakeswap.info
+  - DOMAIN-SUFFIX,defibit.io
   # Crypto⇡
-  - DOMAIN-SUFFIX,cip.cc # ip查询
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
   # steam, 游戏相关⇡
+  - DOMAIN-SUFFIX,cip.cc # ip查询
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,github.com
+  # dev⇡
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
-  - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,YoutubeDownloader.exe
+  # common⇡
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
-  - DOMAIN-SUFFIX,metamask.io
-  - DOMAIN-SUFFIX,dexscreener.com
-  - DOMAIN-SUFFIX,pi.com
-  - DOMAIN-SUFFIX,minepi.com
-  - DOMAIN-SUFFIX,applovin.com
-  - DOMAIN-SUFFIX,okcoin.com
-  - DOMAIN-SUFFIX,v1.mk
-  - DOMAIN-SUFFIX,pancakeswap.finance
-  - DOMAIN-SUFFIX,pancakeswap.info
-  - DOMAIN-SUFFIX,defibit.io
+  # happy⇡
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,mathtagmedia.com
   - DOMAIN-SUFFIX,raydium.io
