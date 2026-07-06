@@ -7,7 +7,7 @@ payload:
   - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
   # dev⇣
   - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
-  - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
+  - DOMAIN,meme.us.kg # myDomain cloudflare cdn
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN-SUFFIX,jsdelivr.net # jsdelivr
