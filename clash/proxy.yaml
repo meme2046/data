@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN-SUFFIX,gate.io
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,jup.ag
   # Crypto⇡
@@ -13,9 +16,6 @@ payload:
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,YoutubeDownloader.exe
-  - DOMAIN-SUFFIX,gate.io
-  - DOMAIN-SUFFIX,binance.com
-  - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,metamask.io
@@ -79,7 +79,6 @@ payload:
   - DOMAIN-SUFFIX,freedomain.one
   - DOMAIN-SUFFIX,nl.eu.org
   - DOMAIN-SUFFIX,digitalplat.org
-  - DOMAIN-SUFFIX,arweave.net
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,whoer.net
@@ -102,7 +101,6 @@ payload:
   - DOMAIN-SUFFIX,h2o.ai
   - DOMAIN-SUFFIX,fpjs.io
   - DOMAIN-SUFFIX,gateimg.com
-  - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,cetus.zone
   - DOMAIN-SUFFIX,flvto.biz
   - DOMAIN-SUFFIX,goubi.vip
@@ -125,14 +123,12 @@ payload:
   - DOMAIN-SUFFIX,myavlive.com
   - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-SUFFIX,llamarpc.com
-  - DOMAIN-SUFFIX,pancakeswap.info
   - DOMAIN-SUFFIX,nodies.app
   - DOMAIN-SUFFIX,zksync.io
   - DOMAIN-SUFFIX,merkl.xyz
   - DOMAIN-SUFFIX,1inch.io
   - DOMAIN-SUFFIX,1inch.com
   - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,innerworks.me
   - DOMAIN-SUFFIX,moonpay.com
   - DOMAIN-SUFFIX,tableconvert.com
@@ -155,4 +151,3 @@ payload:
   - DOMAIN-SUFFIX,xboxab.net
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xboxservices.com
-  - DOMAIN-KEYWORD,xbox
