@@ -1,10 +1,11 @@
 payload:
+  # local⇣
   - IP-CIDR,127.0.0.0/8
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,10.0.0.0/8
   - IP-CIDR,172.16.0.0/12
   - IP-CIDR,125.80.0.0/16 # 我的本地公网ip段
-  # local
+  # dev⇣
   - DOMAIN-SUFFIX,memeniu.xyz # myDomain dnspod cdn
   - DOMAIN-SUFFIX,us.kg # myDomain cloudflare cdn
   - DOMAIN,clash.razord.top # clash面板
@@ -13,7 +14,12 @@ payload:
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com
-  # dev⇡
+  - DOMAIN-SUFFIX,ai-yyds.com
+  - DOMAIN-SUFFIX,gitee.com
+  - DOMAIN,time.windows.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,npmmirror.com
+  # IP查询⇣
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
@@ -21,7 +27,7 @@ payload:
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ident.me
-  # IP查询⇡
+  # common⇣
   - DOMAIN-SUFFIX,yangshipin.com # 央视频
   - DOMAIN-SUFFIX,bing.com
   - PROCESS-NAME,80launch.exe
@@ -37,7 +43,10 @@ payload:
   - PROCESS-NAME,BaiduNetdisk.exe
   - PROCESS-NAME,ShareX.exe
   - PROCESS-NAME,喜马拉雅.exe
-  # common⇡
+  - PROCESS-NAME,cngame.exe
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,qq.com
+  # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
@@ -52,54 +61,21 @@ payload:
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
-  # steam, 游戏相关⇡
-  - PROCESS-NAME,genymotion.exe
-  - PROCESS-NAME,cngame.exe
-  - PROCESS-NAME,xunyou.exe
-  - DOMAIN-SUFFIX,tata-api.com
-  - DOMAIN-SUFFIX,ai-yyds.com
-  - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,dingtalk.com
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,97yrbl.com
-  - DOMAIN-SUFFIX,surrit.com
-  - DOMAIN,time.windows.com
-  - DOMAIN-SUFFIX,rinhome.com
-  - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,npmmirror.com
-  - DOMAIN-SUFFIX,alibabacloud.com
-  - DOMAIN-SUFFIX,6v520.com
-  - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-  - DOMAIN,btrace.qq.com
-  - DOMAIN,dldir1.qq.com
-  - DOMAIN,slife.xy-asia.com
-  - DOMAIN,soup.v.qq.com
-  - DOMAIN,vweixinf.tc.qq.com
-  - DOMAIN,weixin110.qq.com
-  - DOMAIN,wup.imtt.qq.com
+
   - DOMAIN-SUFFIX,iot-tencent.com
   - DOMAIN-SUFFIX,lbs.gtimg.com
-  - DOMAIN-SUFFIX,map.qq.com
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,up-hl.3g.qq.com
-  - DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,wechatlegal.net
   - DOMAIN-SUFFIX,wechatos.net
   - DOMAIN-SUFFIX,wechatpay.com
   - DOMAIN-SUFFIX,weixin.com
-  - DOMAIN-SUFFIX,weixin.qq.com
   - DOMAIN-SUFFIX,weixinbridge.com
   - DOMAIN-SUFFIX,weixinsxy.com
   - DOMAIN-SUFFIX,wx.gtimg.com
-  - DOMAIN-SUFFIX,wx.qq.com
-  - DOMAIN-SUFFIX,wxapp.tc.qq.com
-  - DOMAIN-SUFFIX,wxs.qq.com
-  - DOMAIN-SUFFIX,yun-hl.3g.qq.com
-  - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,ub88game.com
