@@ -11,6 +11,10 @@ payload:
   - DOMAIN-SUFFIX,pancakeswap.finance
   - DOMAIN-SUFFIX,pancakeswap.info
   - DOMAIN-SUFFIX,defibit.io
+  - DOMAIN-SUFFIX,raydium.io
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,uniswap.org
+  - DOMAIN-SUFFIX,walletconnect.com
   # Crypto⇡
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
@@ -23,36 +27,18 @@ payload:
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,YoutubeDownloader.exe
+  - DOMAIN-SUFFIX,arweave.org
+  - DOMAIN-SUFFIX,arweave.net
+  - DOMAIN-SUFFIX,ar-io.dev
+  - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pytorch.org
+  - DOMAIN-SUFFIX,f-droid.org
   # common⇡
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   # happy⇡
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,mathtagmedia.com
-  - DOMAIN-SUFFIX,raydium.io
-  - DOMAIN-SUFFIX,arweave.org
-  - DOMAIN-SUFFIX,ar-io.dev
-  - DOMAIN-SUFFIX,arweave.net
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,uniswap.org
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,python.org
-  - DOMAIN-SUFFIX,pypi.org
-  - DOMAIN-SUFFIX,pytorch.org
-  - DOMAIN-SUFFIX,uploadrar.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,landasky.com
-  - DOMAIN-SUFFIX,inmobi.com
-  - DOMAIN-SUFFIX,saawsedge.com
-  - DOMAIN-SUFFIX,bntrace.com
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,saasexch.com
-  - DOMAIN-SUFFIX,jinse.cn
-  - DOMAIN-SUFFIX,bdstatic.com
-  - DOMAIN-SUFFIX,51.la
-  - DOMAIN-SUFFIX,f-droid.org
-  - DOMAIN-SUFFIX,walletconnect.com
+
   - DOMAIN-SUFFIX,trustwallet.com
   - DOMAIN-SUFFIX,coingecko.com
   - DOMAIN-SUFFIX,arbitrum.io
