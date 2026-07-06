@@ -68,6 +68,8 @@ payload:
   - DOMAIN,finance.pae.baidu.com
   - DOMAIN,sp1.baidu.com
   - DOMAIN,h2tcbox.baidu.com
+  - DOMAIN,nsclick.baidu.com
+  - DOMAIN,miaowu.baidu.com
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
