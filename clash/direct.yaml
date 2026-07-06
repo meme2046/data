@@ -64,6 +64,8 @@ payload:
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,byteimg.com # 字节跳动图片cdn
+  - DOMAIN,finance.baidu.com
+  - DOMAIN,finance.pae.baidu.com
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
