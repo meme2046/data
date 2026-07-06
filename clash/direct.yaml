@@ -46,6 +46,22 @@ payload:
   - PROCESS-NAME,cngame.exe
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatos.net
+  - DOMAIN-SUFFIX,wechatpay.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,weixinsxy.com
+  - DOMAIN-SUFFIX,oneplus.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,sina.cn
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,imooc.com
+  - DOMAIN-SUFFIX,quark.cn
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
@@ -61,40 +77,8 @@ payload:
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
-
-  - DOMAIN-SUFFIX,iot-tencent.com
-  - DOMAIN-SUFFIX,lbs.gtimg.com
-  - DOMAIN-SUFFIX,qlogo.cn
-  - DOMAIN-SUFFIX,qpic.cn
-  - DOMAIN-SUFFIX,servicewechat.com
-  - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,wechatlegal.net
-  - DOMAIN-SUFFIX,wechatos.net
-  - DOMAIN-SUFFIX,wechatpay.com
-  - DOMAIN-SUFFIX,weixin.com
-  - DOMAIN-SUFFIX,weixinbridge.com
-  - DOMAIN-SUFFIX,weixinsxy.com
-  - DOMAIN-SUFFIX,wx.gtimg.com
-  - DOMAIN-SUFFIX,doubanio.com
-  - DOMAIN-SUFFIX,oneplus.com
-  - DOMAIN-SUFFIX,ub88game.com
-  - DOMAIN-SUFFIX,ubgj.vip
-  - DOMAIN-SUFFIX,sixyin.com
-  - DOMAIN-SUFFIX,gejiba.com
-  - DOMAIN-SUFFIX,wangdu.site
-  - DOMAIN-SUFFIX,dpdns.org
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,sina.cn
-  - DOMAIN-SUFFIX,mmstat.com
-  - DOMAIN-SUFFIX,qy.net
-  - DOMAIN-SUFFIX,miaozhen.com
-  - DOMAIN-SUFFIX,iqiyi.com
-  - DOMAIN-SUFFIX,iqiyipic.com
-  - DOMAIN-SUFFIX,imooc.com
-  - DOMAIN-SUFFIX,jzit.top
   - DOMAIN-SUFFIX,5211game.com
-  - DOMAIN-SUFFIX,quark.cn
+
   - DOMAIN,clash.razord.top
   - DOMAIN,yacd.haishan.me
   - DOMAIN-SUFFIX,dnsapi.cn
