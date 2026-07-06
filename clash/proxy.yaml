@@ -52,7 +52,6 @@ payload:
   - PROCESS-NAME,YoutubeDownloader.exe
   - DOMAIN-SUFFIX,tableconvert.com
   - DOMAIN-SUFFIX,telegram.org
-  # common⇡
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
-  # happy⇡
+  # common⇡

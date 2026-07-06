@@ -10,6 +10,9 @@ payload:
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN-SUFFIX,jsdelivr.net # jsdelivr
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,qiniup.com
+  - DOMAIN-SUFFIX,qiniu.com
   # dev⇡
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
@@ -19,6 +22,22 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ident.me
   # IP查询⇡
+  - DOMAIN-SUFFIX,yangshipin.com # 央视频
+  - DOMAIN-SUFFIX,bing.com
+  - PROCESS-NAME,80launch.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,ThunderVIP.exe
+  - PROCESS-NAME,语雀.exe
+  - PROCESS-NAME,百度翻译.exe
+  - PROCESS-NAME,优游国际.exe
+  - PROCESS-NAME,QQPCMgrUpdate.exe
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,TrafficMonitor.exe
+  - PROCESS-NAME,localsend_app.exe
+  - PROCESS-NAME,BaiduNetdisk.exe
+  - PROCESS-NAME,ShareX.exe
+  - PROCESS-NAME,喜马拉雅.exe
+  # common⇡
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
@@ -34,35 +53,9 @@ payload:
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
   # steam, 游戏相关⇡
-  - DOMAIN-SUFFIX,yangshipin.com # 央视频
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,msdxcdn.microsoft.com
-  - DOMAIN-SUFFIX,alicdn.com
-  - DOMAIN-SUFFIX,qiniup.com
-  - DOMAIN-SUFFIX,qiniu.com
-  - DOMAIN-KEYWORD,Doubao
-  - DOMAIN-KEYWORD,DingTalk
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,80launch.exe
-  - PROCESS-NAME,Trae CN.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,ThunderVIP.exe
-  - PROCESS-NAME,语雀.exe
-  - PROCESS-NAME,百度翻译.exe
-  - PROCESS-NAME,优游国际.exe
-  - PROCESS-NAME,QQPCMgrUpdate.exe
-  - PROCESS-NAME,QQ.exe
-  - PROCESS-NAME,yuanbao.exe
-  - PROCESS-NAME,TrafficMonitor.exe
-  - PROCESS-NAME,localsend_app.exe
-  - PROCESS-NAME,hexinlauncher.exe
-  - PROCESS-NAME,BaiduNetdisk.exe
-  - PROCESS-NAME,ShareX.exe
-  - PROCESS-NAME,喜马拉雅.exe
   - PROCESS-NAME,genymotion.exe
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,xunyou.exe
-  - DOMAIN-SUFFIX,cursor.email
   - DOMAIN-SUFFIX,tata-api.com
   - DOMAIN-SUFFIX,ai-yyds.com
   - DOMAIN-SUFFIX,gitee.com
