@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,ping0.cc
   # dev⇣
+  - DOMAIN-SUFFIX,memeniu.xyz # 七牛映射域名
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
