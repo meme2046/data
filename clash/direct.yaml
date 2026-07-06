@@ -66,7 +66,7 @@ payload:
   - DOMAIN-SUFFIX,byteimg.com # 字节跳动图片cdn
   - DOMAIN,finance.baidu.com # 垃圾百度
   - DOMAIN,finance.pae.baidu.com
-  - DOMAIN,finance.sp1.baidu.com
+  - DOMAIN,sp1.baidu.com
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
