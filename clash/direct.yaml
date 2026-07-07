@@ -8,6 +8,7 @@ payload:
   # dev⇣
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
+  - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
   - DOMAIN-SUFFIX,jsdelivr.net # jsdelivr
