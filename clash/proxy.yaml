@@ -48,6 +48,7 @@ payload:
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,digitalplat.org
+  # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - PROCESS-NAME,mailsync.exe
