@@ -73,6 +73,7 @@ payload:
   - DOMAIN,miaowu.baidu.com
   - DOMAIN,finance-ws.pae.baidu.com
   - DOMAIN,miao.baidu.com
+  - DOMAIN,zijieapi.com # 字节api
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
