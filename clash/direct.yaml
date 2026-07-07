@@ -64,8 +64,8 @@ payload:
   - DOMAIN-SUFFIX,imooc.com
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
-  - DOMAIN-SUFFIX,byteimg.com # 字节跳动图片cdn
-  - DOMAIN,finance.baidu.com # 垃圾百度
+  # 垃圾百度⇣
+  - DOMAIN,finance.baidu.com
   - DOMAIN,finance.pae.baidu.com
   - DOMAIN,sp1.baidu.com
   - DOMAIN,h2tcbox.baidu.com
@@ -73,7 +73,10 @@ payload:
   - DOMAIN,miaowu.baidu.com
   - DOMAIN,finance-ws.pae.baidu.com
   - DOMAIN,miao.baidu.com
-  - DOMAIN,zijieapi.com # 字节api
+  # 字节⇣
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN,zijieapi.com
+  - DOMAIN,doubao.com
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
