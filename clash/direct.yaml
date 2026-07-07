@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,weixinsxy.com
   - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,sina.cn
   - DOMAIN-SUFFIX,iqiyi.com
