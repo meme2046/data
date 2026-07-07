@@ -63,6 +63,8 @@ payload:
   - DOMAIN-SUFFIX,imooc.com
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
+  # docker⇣
+  - DOMAIN-SUFFIX,docker.io # 镜像拉去 cdn
   # 阿里云⇣
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
