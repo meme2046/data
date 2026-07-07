@@ -56,8 +56,6 @@ payload:
   - DOMAIN-SUFFIX,weixinbridge.com
   - DOMAIN-SUFFIX,weixinsxy.com
   - DOMAIN-SUFFIX,oneplus.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,sina.cn
   - DOMAIN-SUFFIX,iqiyi.com
@@ -65,6 +63,9 @@ payload:
   - DOMAIN-SUFFIX,imooc.com
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
+  # 阿里云⇣
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliyuncs.com
   # 垃圾百度⇣
   - DOMAIN,finance.baidu.com
   - DOMAIN,finance.pae.baidu.com
