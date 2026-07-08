@@ -98,3 +98,5 @@ payload:
   - DOMAIN-WILDCARD,lobby*.klei.com
   - DOMAIN-WILDCARD,dst.*.klei.com
   - DOMAIN-SUFFIX,5211game.com
+  # 其他
+  - DOMAIN-SUFFIX,surrit.com
