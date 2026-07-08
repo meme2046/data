@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,mi.com # 小米
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,bing.com
+  - PROCESS-NAME,eCloud.exe
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
