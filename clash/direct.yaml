@@ -30,7 +30,7 @@ payload:
   - DOMAIN-SUFFIX,ident.me
   - DOMAIN-SUFFIX,ipapi.is
   # common⇣
-  - DOMAIN-SUFFIX,cloudflare-dns.com
+  # - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,yangshipin.com # 央视频
   - DOMAIN-SUFFIX,mi.com # 小米
   - DOMAIN-SUFFIX,jd.com
