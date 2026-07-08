@@ -31,6 +31,8 @@ payload:
   - DOMAIN-SUFFIX,ipapi.is
   # common⇣
   - DOMAIN-SUFFIX,yangshipin.com # 央视频
+  - DOMAIN-SUFFIX,mi.com # 小米
+  - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,bing.com
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Thunder.exe
