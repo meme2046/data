@@ -42,7 +42,6 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,arweave.org
   - DOMAIN-SUFFIX,arweave.net
   - DOMAIN-SUFFIX,ar-io.dev
