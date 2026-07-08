@@ -35,6 +35,8 @@ payload:
   - DOMAIN-SUFFIX,cip.cc
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,ping0.cc
+  - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,ipwho.is
   # dev⇣
   - DOMAIN-SUFFIX,memeniu.xyz # 七牛映射域名
   - DOMAIN-SUFFIX,githubusercontent.com

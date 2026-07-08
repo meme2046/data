@@ -28,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ident.me
-  - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-SUFFIX,ipapi.is
   # common⇣
   - DOMAIN-SUFFIX,yangshipin.com # 央视频
