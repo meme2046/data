@@ -92,6 +92,7 @@ payload:
   - DOMAIN,miao.baidu.com
   # 字节⇣
   - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN,zijieapi.com
   - DOMAIN,doubao.com
   # steam, 游戏相关⇣
