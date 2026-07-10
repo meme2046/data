@@ -8,10 +8,10 @@ payload:
   - IP-CIDR,113.251.0.0/16 # 本地公网ip段
   - DST-PORT,10999
   - DST-PORT,10998
-  - DST-PORT,27016
-  - DST-PORT,27017
-  - DST-PORT,8766
-  - DST-PORT,8767
+  # - DST-PORT,27016
+  # - DST-PORT,27017
+  # - DST-PORT,8766
+  # - DST-PORT,8767
   # dev⇣
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
