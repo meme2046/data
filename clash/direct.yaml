@@ -12,9 +12,11 @@ payload:
   # - DST-PORT,27017
   # - DST-PORT,8766
   # - DST-PORT,8767
-  # dev⇣
+  # v6域名
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
+  - DOMAIN-SUFFIX,recaptcha.net
+  # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板

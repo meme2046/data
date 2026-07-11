@@ -7,3 +7,4 @@ payload:
   - DOMAIN-SUFFIX,bnw3w.com
   - DOMAIN-SUFFIX,daxinlicai.com
   - DOMAIN-SUFFIX,landasky.com
+  - DOMAIN-SUFFIX,googletagmanager.com # 只有你自己需要登录 GTM 后台调试网站时才放行
