@@ -86,6 +86,8 @@ payload:
   - DOMAIN-SUFFIX,66tutup.com
   - DOMAIN-SUFFIX,6v520.net
   - DOMAIN-SUFFIX,ub88play.com
+  - DOMAIN-SUFFIX,settlementcloud.com
+  - DOMAIN-SUFFIX,gisturog.com
   - DOMAIN-WILDCARD,ub*.com
   # 阿里云⇣
   - DOMAIN-SUFFIX,aliyun.com
