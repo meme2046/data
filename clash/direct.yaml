@@ -88,6 +88,8 @@ payload:
   - DOMAIN-SUFFIX,ub88play.com
   - DOMAIN-SUFFIX,settlementcloud.com
   - DOMAIN-SUFFIX,gisturog.com
+  - DOMAIN-SUFFIX,bpb7jrm5.com # ub8临时
+  - DOMAIN-SUFFIX,zip235671.com # ub8临时
   - DOMAIN-WILDCARD,ub*.com
   # 阿里云⇣
   - DOMAIN-SUFFIX,aliyun.com
