@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,npmmirror.com
   - DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,jsdelivr.net
   # IP查询⇣
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
