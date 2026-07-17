@@ -20,7 +20,6 @@ payload:
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
-  - DOMAIN-SUFFIX,jsdelivr.net # jsdelivr
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN-SUFFIX,qiniu.com

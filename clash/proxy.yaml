@@ -50,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,digitalplat.org
+  - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-KEYWORD,4everland
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
