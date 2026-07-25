@@ -62,3 +62,4 @@ payload:
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googleapis.com
