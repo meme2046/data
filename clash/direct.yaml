@@ -125,3 +125,4 @@ payload:
   - DOMAIN-SUFFIX,5211game.com
   # 其他
   - DOMAIN-SUFFIX,surrit.com # missav视频下载源, 使用直连就能下载
+  - DOMAIN-SUFFIX,slowread.net
