@@ -88,12 +88,12 @@ payload:
   - DOMAIN-SUFFIX,ub88play.com
   - DOMAIN-SUFFIX,settlementcloud.com
   - DOMAIN-SUFFIX,gisturog.com
-  - DOMAIN-SUFFIX,bpb7jrm5.com # ub8临时
-  - DOMAIN-SUFFIX,zip235671.com # ub8临时
   - DOMAIN-WILDCARD,ub*.com
-  # 阿里云⇣
+  - DOMAIN-SUFFIX,akamaized.net
+  # 阿里⇣
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,alipay.com
   # 垃圾百度⇣
   - DOMAIN,finance.baidu.com
   - DOMAIN,finance.pae.baidu.com
@@ -125,4 +125,4 @@ payload:
   - DOMAIN-SUFFIX,5211game.com
   # 其他
   - DOMAIN-SUFFIX,surrit.com # missav视频下载源, 使用直连就能下载
-  - DOMAIN-SUFFIX,slowread.net
+  - DOMAIN-SUFFIX,slowread.net # 网盘资源分享
