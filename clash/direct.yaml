@@ -78,9 +78,7 @@ payload:
   - DOMAIN-SUFFIX,imooc.com
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
-  - DOMAIN-SUFFIX,bilibili.com
   - PROCESS-NAME,DownKyi.exe
-  - DOMAIN-SUFFIX,bilivideo.com # 哔哩哔哩
   - DOMAIN-SUFFIX,thunderbird.net
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,66tutup.com
@@ -89,6 +87,9 @@ payload:
   - DOMAIN-SUFFIX,settlementcloud.com
   - DOMAIN-SUFFIX,gisturog.com
   - DOMAIN-WILDCARD,ub*.com
+  # bilibili
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,finzfin.com
