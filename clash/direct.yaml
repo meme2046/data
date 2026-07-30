@@ -113,7 +113,7 @@ payload:
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN,zijieapi.com
   - DOMAIN,doubao.com
-  # 天翼
+  # 电信
   - DOMAIN-SUFFIX,189.cn
   - DOMAIN-SUFFIX,21cn.com
   # android
