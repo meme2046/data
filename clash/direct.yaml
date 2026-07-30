@@ -40,7 +40,6 @@ payload:
   - DOMAIN-SUFFIX,ident.me
   - DOMAIN-SUFFIX,ipapi.is
   # common⇣
-  - DOMAIN-SUFFIX,189.cn # 天翼
   - DOMAIN-SUFFIX,yangshipin.com # 央视频
   - DOMAIN-SUFFIX,mi.com # 小米
   - DOMAIN-SUFFIX,jd.com
@@ -114,6 +113,11 @@ payload:
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN,zijieapi.com
   - DOMAIN,doubao.com
+  # 天翼
+  - DOMAIN-SUFFIX,189.cn
+  - DOMAIN-SUFFIX,21cn.com
+  # android
+  - DOMAIN-SUFFIX,heytapmobi.com
   # steam, 游戏相关⇣
   # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
