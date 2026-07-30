@@ -37,6 +37,7 @@ payload:
   - PROCESS-NAME,com.heytap.htms
   - PROCESS-NAME,com.heytap.market # oneplus商店
   - PROCESS-NAME,com.heytap.openid
+  - PROCESS-NAME,com.heytap.speechassist
   - PROCESS-NAME,com.oplus.pantanal.ums
   - PROCESS-NAME,com.oplus.statistics.rom
   - PROCESS-NAME,com.oplus.qualityprotect
@@ -55,6 +56,9 @@ payload:
   - PROCESS-NAME,com.yuque.mobile.android.app
   - PROCESS-NAME,com.manmanbuy.bijia
   - PROCESS-NAME,com.ct.client
+  - PROCESS-NAME,com.sankuai.meituan
+  - PROCESS-NAME,com.sankuai.meituan.takeoutnew
+  - PROCESS-NAME,com.xyd.parent # 乐学有道
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
