@@ -47,6 +47,7 @@ payload:
   - PROCESS-NAME,com.jingdong.app.mall
   - PROCESS-NAME,com.baidu.BaiduMap
   - PROCESS-NAME,com.xunmeng.pinduoduo
+  - PROCESS-NAME,com.ximalaya.ting.android
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
