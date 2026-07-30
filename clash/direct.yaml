@@ -34,6 +34,7 @@ payload:
   - PROCESS-NAME,cngame.exe
   - PROCESS-NAME,DownKyi.exe
   - PROCESS-NAME,com.quark.browser
+  - PROCESS-NAME,com.heytap.htms
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板

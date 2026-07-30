@@ -2,7 +2,7 @@ payload:
   # PROCESS
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,YoutubeDownloader.exe
-  - PROCESS-NAME,com.android.browser
+  - PROCESS-NAME,com.android.vending
   # Crypto⇣
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
