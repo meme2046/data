@@ -4,6 +4,9 @@ payload:
   - PROCESS-NAME,YoutubeDownloader.exe
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
+  - PROCESS-NAME,com.gateio.gateio
+  - PROCESS-NAME,com.okinc.okex.gp
+  - PROCESS-NAME,com.bitget.exchange
   # Crypto⇣
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com

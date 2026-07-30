@@ -64,6 +64,9 @@ payload:
   - PROCESS-NAME,com.chinamworld.bocmbci
   - PROCESS-NAME,com.bankcomm.Bankcomm
   - PROCESS-NAME,com.icbc
+  - PROCESS-NAME,com.chinamworld.main
+  - PROCESS-NAME,com.ecitic.bank.mobile
+  - PROCESS-NAME,com.cib.cibmb
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
