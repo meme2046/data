@@ -61,6 +61,9 @@ payload:
   - PROCESS-NAME,com.sankuai.meituan.takeoutnew
   - PROCESS-NAME,com.xyd.parent # 乐学有道
   - PROCESS-NAME,com.cqdcg.ykbapp # 渝快办
+  - PROCESS-NAME,com.chinamworld.bocmbci
+  - PROCESS-NAME,com.bankcomm.Bankcomm
+  - PROCESS-NAME,com.icbc
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
