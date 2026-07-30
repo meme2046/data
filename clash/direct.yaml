@@ -16,6 +16,24 @@ payload:
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
   - DOMAIN-SUFFIX,recaptcha.net
+  # PROCESS
+  - PROCESS-NAME,eCloud.exe
+  - PROCESS-NAME,80launch.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,ThunderVIP.exe
+  - PROCESS-NAME,语雀.exe
+  - PROCESS-NAME,百度翻译.exe
+  - PROCESS-NAME,优游国际.exe
+  - PROCESS-NAME,QQPCMgrUpdate.exe
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,TrafficMonitor.exe
+  - PROCESS-NAME,localsend_app.exe
+  - PROCESS-NAME,BaiduNetdisk.exe
+  - PROCESS-NAME,ShareX.exe
+  - PROCESS-NAME,喜马拉雅.exe
+  - PROCESS-NAME,cngame.exe
+  - PROCESS-NAME,DownKyi.exe
+  - PROCESS-NAME,com.quark.browser
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
@@ -44,21 +62,6 @@ payload:
   - DOMAIN-SUFFIX,mi.com # 小米
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,bing.com
-  - PROCESS-NAME,eCloud.exe
-  - PROCESS-NAME,80launch.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,ThunderVIP.exe
-  - PROCESS-NAME,语雀.exe
-  - PROCESS-NAME,百度翻译.exe
-  - PROCESS-NAME,优游国际.exe
-  - PROCESS-NAME,QQPCMgrUpdate.exe
-  - PROCESS-NAME,QQ.exe
-  - PROCESS-NAME,TrafficMonitor.exe
-  - PROCESS-NAME,localsend_app.exe
-  - PROCESS-NAME,BaiduNetdisk.exe
-  - PROCESS-NAME,ShareX.exe
-  - PROCESS-NAME,喜马拉雅.exe
-  - PROCESS-NAME,cngame.exe
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,servicewechat.com
@@ -77,7 +80,6 @@ payload:
   - DOMAIN-SUFFIX,imooc.com
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,douban.com
-  - PROCESS-NAME,DownKyi.exe
   - DOMAIN-SUFFIX,thunderbird.net
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,66tutup.com
@@ -119,7 +121,6 @@ payload:
   # android
   - DOMAIN-SUFFIX,heytapmobi.com
   # steam, 游戏相关⇣
-  # - PROCESS-NAME,dontstarve_steam_x64.exe
   - DOMAIN,test.steampowered.com # Steam官方联网自检地址，客户端开机自动测速，必须直连
   - DOMAIN-SUFFIX,steamserver.net # Steam全部下载/登录/联机服务器后缀，所有*.steamserver.net 直连提速
   - DOMAIN-SUFFIX,steamconnecttest.com # 第三方Steam连通性测试域名，工具探测用，直连即可

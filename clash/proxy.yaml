@@ -1,4 +1,8 @@
 payload:
+  # PROCESS
+  - PROCESS-NAME,mailsync.exe
+  - PROCESS-NAME,YoutubeDownloader.exe
+  - PROCESS-NAME,com.android.browser
   # Crypto⇣
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
@@ -56,8 +60,6 @@ payload:
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
-  - PROCESS-NAME,mailsync.exe
-  - PROCESS-NAME,YoutubeDownloader.exe
   - DOMAIN-SUFFIX,tableconvert.com
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,missav.com
