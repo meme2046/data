@@ -35,6 +35,9 @@ payload:
   - PROCESS-NAME,DownKyi.exe
   - PROCESS-NAME,com.quark.browser
   - PROCESS-NAME,com.heytap.htms
+  - PROCESS-NAME,com.oplus.pantanal.ums
+  - PROCESS-NAME,com.oplus.statistics.rom
+  - PROCESS-NAME,com.android.mms
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
