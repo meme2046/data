@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,recaptcha.net
   # PROCESS
   - PROCESS-NAME,eCloud.exe
+  - PROCESS-NAME,quark.exe
   - PROCESS-NAME,80launch.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
