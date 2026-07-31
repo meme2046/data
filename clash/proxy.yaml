@@ -70,3 +70,4 @@ payload:
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,recaptcha.net

@@ -15,7 +15,6 @@ payload:
   # v6域名
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
-  - DOMAIN-SUFFIX,recaptcha.net
   # PROCESS
   - PROCESS-NAME,eCloud.exe
   - PROCESS-NAME,quark.exe
