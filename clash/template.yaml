@@ -46,7 +46,6 @@ dns:
     - api.memeniu.xyz
     - meme.us.kg
     - +.steamserver.net
-    - +.recaptcha.net
   use-hosts: false
   use-system-hosts: false
   respect-rules: true
@@ -118,11 +117,6 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
     +.steamserver.net:
-      - https://[2402:4e00::]/dns-query
-      - https://[2400:3200::1]/dns-query
-      - https://dns.alidns.com/dns-query
-      - https://doh.pub/dns-query
-    +.recaptcha.net:
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
       - https://dns.alidns.com/dns-query
