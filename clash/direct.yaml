@@ -17,6 +17,7 @@ payload:
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
   # - DOMAIN-SUFFIX,recaptcha.net
   # PROCESS
+  - PROCESS-NAME,Trae CN.exe
   - PROCESS-NAME,eCloud.exe
   - PROCESS-NAME,quark.exe
   - PROCESS-NAME,80launch.exe
