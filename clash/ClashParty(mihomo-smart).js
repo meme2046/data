@@ -1,15 +1,15 @@
 // Clash Smart 内核覆写脚本 - SUB-STORE 多机场精细分流版
-// 版本：v6.0.9-dns.2 (2026-07-25)
+// 版本：v6.0.9-dns.3 (2026-08-02)
 // 架构：SUB-STORE 多机场融合 + 22 Smart 区域组（11 全部 + 11 家宽）+ 33 业务策略组 + 127 融合 rule-providers / 146 rules
 // 规则源：rulesets/source/routing-graph.js v6.0.9（514 providers / 973 rules -> fused 127 / 146；同策略规范化与语义去重）
-// v6.0.9-dns.2：Node-DNS profile 仅控制受限投影深度；55 组、规则与全局 DNS 基线不变
+// v6.0.9-dns.3：小写 ISO 两位码 + 数字后缀（如 yun hk01）稳定进入对应区域组；自由文本仍保留严格防误匹配边界
 // 变更历史：见 `Clash Party/CHANGELOG.md`
 
 // ================================================================
 //  版本常量
 // ================================================================
 
-const VERSION = 'v6.0.9-dns.2';
+const VERSION = 'v6.0.9-dns.3';
 
 // 受信任的本地订阅适配模式：off | policy | adaptive。
 // 不从机场订阅读取；三档均不会改变 55 组、规则或仓库 DNS 基线。
@@ -81,6 +81,17 @@ function _getWordBoundaryRegex(keyword, caseSensitive) {
   _regexCache.set(key, re);
   return re;
 }
+// ISO alpha-2 在机场节点中常被写成 hk01 / us-05。不能直接让全部 ISO
+// 忽略大小写：US、IN 等会误命中普通英文词。仅在紧随编号时放开大小写，
+// 并继续沿用“非英文字母”为边界的跨平台约定。
+function _getNumberedIsoRegex(keyword) {
+  const key = 'N:' + keyword;
+  if (_regexCache.has(key)) return _regexCache.get(key);
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp('(^|[^a-zA-Z])' + escaped + '(?=[^a-zA-Z]*[0-9])', 'i');
+  _regexCache.set(key, re);
+  return re;
+}
 const _CHINESE_RE = /[\u4e00-\u9fa5]/;
 function _isChinese(str) {return _CHINESE_RE.test(str);}
 
@@ -88,6 +99,7 @@ const _compiledRegions = REGION_DB.map(function (region) {
   var matchers = [];
   for (var i = 0; i < region.iso.length; i++) {
     matchers.push({ type: 'iso', regex: _getWordBoundaryRegex(region.iso[i], true) });
+    matchers.push({ type: 'iso-numbered', regex: _getNumberedIsoRegex(region.iso[i]) });
   }
   for (var j = 0; j < region.kw.length; j++) {
     var kw = region.kw[j];
@@ -1266,7 +1278,7 @@ function main(config) {
     injectBusinessGroups(config, activeSmartNames);
     applyMihomoFusedRuleSets(config);
     sortProxyGroups(config);
-    console.log(`[${VERSION}] Done! Groups: ${config['proxy-groups'].length}, Rules: ${config.rules.length}, Providers: ${Object.keys(config['rule-providers']).length}`);const ruleSet = ["RULE-SET,my-direct,DIRECT", "RULE-SET,my-reject,REJECT", "RULE-SET,my-proxy,🌍 全球节点"];config.rules = [...ruleSet, ...config.rules];const ruleProviders = { "my-direct": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-direct.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/direct.yaml?_t={{timestamp}}" }, "my-proxy": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-proxy.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/proxy.yaml?_t={{timestamp}}" }, "my-reject": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-reject.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/reject.yaml?_t={{timestamp}}" } };Object.keys(ruleProviders).forEach(function (key) {config["rule-providers"][key] = ruleProviders[key];});const v6Domains = ["api.memeniu.xyz", "meme.us.kg", "+.steamserver.net", "+.recaptcha.net"];config.ipv6 = true;config.dns.ipv6 = true;const domesticDoH = ["https://dns.alidns.com/dns-query", "https://doh.pub/dns-query"];const ipv6Doh = ["https://[2402:4e00::]/dns-query", "https://[2400:3200::1]/dns-query"];const mixedDns = [...domesticDoH, ...ipv6Doh];v6Domains.forEach(function (host) {if (!config.dns["nameserver-policy"][host]) {config.dns["nameserver-policy"][host] = mixedDns.slice();}});v6Domains.forEach(function (domain) {if (!config.dns["fake-ip-filter"].includes(domain)) {config.dns["fake-ip-filter"].push(domain);}});
+    console.log(`[${VERSION}] Done! Groups: ${config['proxy-groups'].length}, Rules: ${config.rules.length}, Providers: ${Object.keys(config['rule-providers']).length}`);const ruleSet = ["RULE-SET,my-direct,DIRECT", "RULE-SET,my-reject,REJECT", "RULE-SET,my-proxy,🌍 全球节点"];config.rules = [...ruleSet, ...config.rules];const ruleProviders = { "my-direct": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-direct.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/direct.yaml?_t={{timestamp}}" }, "my-proxy": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-proxy.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/proxy.yaml?_t={{timestamp}}" }, "my-reject": { behavior: "classical", format: "yaml", interval: 3600, path: "./ruleset/my-reject.yaml", type: "http", url: "https://raw.githubusercontent.com/meme2046/data/main/clash/reject.yaml?_t={{timestamp}}" } };Object.keys(ruleProviders).forEach(function (key) {config["rule-providers"][key] = ruleProviders[key];});const v6Domains = ["api.memeniu.xyz", "meme.us.kg", "+.steamserver.net"];config.ipv6 = true;config.dns.ipv6 = true;const domesticDoH = ["https://dns.alidns.com/dns-query", "https://doh.pub/dns-query"];const ipv6Doh = ["https://[2402:4e00::]/dns-query", "https://[2400:3200::1]/dns-query"];const mixedDns = [...domesticDoH, ...ipv6Doh];v6Domains.forEach(function (host) {if (!config.dns["nameserver-policy"][host]) {config.dns["nameserver-policy"][host] = mixedDns.slice();}});v6Domains.forEach(function (domain) {if (!config.dns["fake-ip-filter"].includes(domain)) {config.dns["fake-ip-filter"].push(domain);}});
     return config;
   } catch (e) {
     console.error(`[${VERSION}] Error:`, e);
