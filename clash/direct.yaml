@@ -85,6 +85,7 @@ payload:
   - DOMAIN-SUFFIX,npmmirror.com
   - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,apple.com
   # IP查询⇣
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
