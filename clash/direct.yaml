@@ -71,6 +71,8 @@ payload:
   - PROCESS-NAME,com.cib.cibmb
   - PROCESS-NAME,com.ss.android.ugc.aweme # 抖音
   - PROCESS-NAME,com.heytap.cloud
+  - PROCESS-NAME,cn.com.cmbc.newmbank.ep
+  - PROCESS-NAME,com.cmbc.cc.mbank
   # dev⇣
   - DOMAIN,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
