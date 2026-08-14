@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-KEYWORD,4everland
   - DOMAIN-SUFFIX,arweave.org
   - DOMAIN-SUFFIX,arweave.net
   - DOMAIN-SUFFIX,ar-io.dev
@@ -63,7 +64,6 @@ payload:
   - DOMAIN-SUFFIX,digitalplat.org
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,apache.org
-  - DOMAIN-KEYWORD,4everland
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
