@@ -56,6 +56,7 @@ payload:
   - DOMAIN-KEYWORD,4everland
   - DOMAIN-SUFFIX,arweave.org
   - DOMAIN-SUFFIX,arweave.net
+  - DOMAIN-SUFFIX,turbo-gateway.com # arweave
   - DOMAIN-SUFFIX,ar-io.dev
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,pypi.org
