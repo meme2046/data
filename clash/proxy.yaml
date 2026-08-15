@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,arweave.org
   - DOMAIN-SUFFIX,arweave.net
   - DOMAIN-SUFFIX,turbo-gateway.com # arweave
+  - DOMAIN-SUFFIX,permagate.io # arweave
   - DOMAIN-SUFFIX,ar-io.dev
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,pypi.org

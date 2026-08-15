@@ -74,7 +74,6 @@ payload:
   - PROCESS-NAME,cn.com.cmbc.newmbank.ep
   - PROCESS-NAME,com.cmbc.cc.mbank
   # dev⇣
-  - DOMAIN-SUFFIX,permagate.io # arweave
   - DOMAIN-SUFFIX,dnsapi.cn # dnspod
   - DOMAIN,clash.razord.top # clash面板
   - DOMAIN,yacd.haishan.me # clash面板
