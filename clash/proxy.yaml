@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,compound.finance
   - DOMAIN-SUFFIX,1inch.io
   - DOMAIN-SUFFIX,1inch.com
+  - DOMAIN-SUFFIX,quickswap.exchange
   # steam, 游戏相关⇣
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
