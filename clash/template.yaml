@@ -109,8 +109,8 @@ dns:
     api.memeniu.xyz:
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
-      - https://dns.alidns.com/dns-query
-      - https://doh.pub/dns-query
+      # - https://dns.alidns.com/dns-query
+      # - https://doh.pub/dns-query
     meme.us.kg:
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
