@@ -9,6 +9,7 @@ payload:
   - PROCESS-NAME,com.okinc.okex.gp
   - PROCESS-NAME,com.bitget.exchange
   # Crypto⇣
+  - DOMAIN-SUFFIX,cpbox.io
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,binance.org
