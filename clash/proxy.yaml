@@ -52,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-SUFFIX,ifconfig.co
   # dev⇣
+  - DOMAIN,tagmanager.google.com
   - DOMAIN-SUFFIX,memeniu.xyz # 七牛映射域名
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
