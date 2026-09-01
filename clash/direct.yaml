@@ -128,9 +128,6 @@ payload:
   - DOMAIN-SUFFIX,settlementcloud.com
   - DOMAIN-SUFFIX,gisturog.com
   - DOMAIN-WILDCARD,ub*.com
-  # 网盘资源
-  - DOMAIN-SUFFIX,alipansou.com
-  - DOMAIN-SUFFIX,ub*.com
   # bilibili
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilibili.com
@@ -179,4 +176,7 @@ payload:
   - DOMAIN-SUFFIX,5211game.com
   # 其他
   - DOMAIN-SUFFIX,surrit.com # missav视频下载源, 使用直连就能下载
-  - DOMAIN-SUFFIX,slowread.net # 网盘资源分享
+  # 网盘资源
+  - DOMAIN-SUFFIX,alipansou.com # 猫狸盘搜
+  - DOMAIN-SUFFIX,slowread.net # 夸克网盘
+  - DOMAIN-SUFFIX,upyunso.com # UP云搜
