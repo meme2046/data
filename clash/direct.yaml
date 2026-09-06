@@ -88,7 +88,6 @@ payload:
   - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN,developer.apple.com
-  - DOMAIN-SUFFIX,sentry.io
   # IP查询⇣
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
