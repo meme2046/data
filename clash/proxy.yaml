@@ -79,3 +79,4 @@ payload:
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,amd.com
