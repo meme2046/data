@@ -1,25 +1,10 @@
-external-controller: ""
 ipv6: true
 mode: rule
 mixed-port: 7890
-redir-port: 0
-tproxy-port: 0
 allow-lan: true
-unified-delay: true
-tcp-concurrent: false
 log-level: warning
-find-process-mode: strict
-bind-address: "*"
-lan-allowed-ips:
-  - 0.0.0.0/0
-  - ::/0
-lan-disallowed-ips: []
-authentication: []
-skip-auth-prefixes:
-  - 127.0.0.1/32
-  - ::1/128
 tun:
-  enable: true
+  enable: false
   stack: gvisor
   auto-route: true
   auto-redirect: false
@@ -119,52 +104,9 @@ dns:
       - https://[2400:3200::1]/dns-query
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-sniffer:
-  enable: true
-  parse-pure-ip: true
-  force-dns-mapping: true
-  override-destination: true
-  sniff:
-    HTTP:
-      ports:
-        - "80"
-        - 8080-8880
-      override-destination: true
-    TLS:
-      ports:
-        - "443"
-        - "8443"
-    QUIC:
-      ports:
-        - "443"
-        - "8443"
-        - "4433"
-  skip-domain:
-    - +.push.apple.com
-  skip-dst-address:
-    - 91.105.192.0/23
-    - 91.108.4.0/22
-    - 91.108.8.0/21
-    - 91.108.16.0/21
-    - 91.108.56.0/22
-    - 95.161.64.0/20
-    - 149.154.160.0/20
-    - 185.76.151.0/24
-    - 2001:67c:4e8::/48
-    - 2001:b28:f23c::/47
-    - 2001:b28:f23f::/48
-    - 2a0a:f280:203::/48
 profile:
   store-selected: true
   store-fake-ip: true
-geo-auto-update: false
-geo-update-interval: 24
-geodata-mode: true
-geox-url:
-  geoip: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat
-  mmdb: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb
-  asn: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb
-  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
 proxies: []
 proxy-providers: {}
 proxy-groups: []
