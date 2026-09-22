@@ -51,6 +51,8 @@ payload:
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,httpbin.org
   # dev⇣
   - DOMAIN,tagmanager.google.com
   - DOMAIN-SUFFIX,githubusercontent.com
