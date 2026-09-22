@@ -22,7 +22,7 @@ skip-auth-prefixes:
   - ::1/128
 tun:
   enable: true
-  stack: gVisor
+  stack: gvisor
   auto-route: true
   auto-redirect: false
   auto-detect-interface: true
