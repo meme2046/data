@@ -4,8 +4,6 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,10.0.0.0/8
   - IP-CIDR,172.16.0.0/12
-  - IP-CIDR,125.80.0.0/16 # 本地公网ip段
-  - IP-CIDR,113.251.0.0/16 # 本地公网ip段
   - IP-CIDR,43.155.213.92/32
   - DST-PORT,10999
   - DST-PORT,10998
