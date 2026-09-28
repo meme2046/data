@@ -4,10 +4,6 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - DST-PORT,10999
   - DST-PORT,10998
-  # - DST-PORT,27016
-  # - DST-PORT,27017
-  # - DST-PORT,8766
-  # - DST-PORT,8767
   # v6域名
   - DOMAIN,memeniu.xyz
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
