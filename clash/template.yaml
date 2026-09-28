@@ -125,9 +125,6 @@ dns:
       - +.google.com
       - +.facebook.com
       - +.youtube.com
-    geosite:
-      - gfw
-      - geolocation-!cn
   direct-nameserver-follow-policy: true
   prefer-h3: false
   nameserver-policy:
