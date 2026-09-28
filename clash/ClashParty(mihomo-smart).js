@@ -1,15 +1,15 @@
 // Clash Smart 内核覆写脚本 - SUB-STORE 多机场精细分流版
-// 版本：v6.0.13-dns.6 (2026-09-03)
+// 版本：v6.0.13-dns.8 (2026-09-21)
 // 架构：SUB-STORE 多机场融合 + 22 Smart 区域组（11 全部 + 11 家宽）+ 33 业务策略组 + 132 融合 rule-providers / 151 rules
 // 规则源：rulesets/source/routing-graph.js v6.0.13（514 providers / 973 rules -> fused 132 / 151；同策略规范化与语义去重）
-// v6.0.13-dns.6：LINUX DO 大陆备用域名 linuxdo.org 前置归入国内网站；主站 linux.do 保持受限网站
+// v6.0.13-dns.8：兼容 #183：识别 Clash Party v2.0.3+ 原始订阅 DNS 保护边界，明确客户端内置 DNS 开关与本脚本 DNS 所有权
 // 变更历史：见 `Clash Party/CHANGELOG.md`
 
 // ================================================================
 //  版本常量
 // ================================================================
 
-const VERSION = 'v6.0.13-dns.6';
+const VERSION = 'v6.0.13-dns.8';
 
 // 受信任的本地订阅适配模式：off | policy | adaptive。
 // 不从机场订阅读取；三档均不会改变 55 组、规则或仓库 DNS 基线。
@@ -949,6 +949,25 @@ function logSubscriptionAdapterReport(report) {
   if (typeof console !== 'undefined' && console.log) console.log(message);
 }
 
+// Clash Party v2.0.3+ 会在执行 JS 覆写前检查原始订阅中的这三类字段。
+// 该检查只能由客户端主进程完成，JS 无法提前改变其结果；这里仅输出不含值的诊断，
+// 让用户区分“客户端 controlDns 被保护逻辑关闭”和“本脚本没有写入 DNS”。
+var CLASH_PARTY_DNS_GUARD_FIELDS = ['proxy-server-nameserver', 'proxy-server-nameserver-policy', 'nameserver-policy'];
+function logClashPartyDnsGuardBoundary(config) {
+  var sourceDns = config && config.dns;
+  if (!sourceDns || typeof sourceDns !== 'object' || Array.isArray(sourceDns)) return;
+  var presentFields = CLASH_PARTY_DNS_GUARD_FIELDS.filter(function (field) {
+    var value = sourceDns[field];
+    if (Array.isArray(value)) return value.length > 0;
+    if (value && typeof value === 'object') return Object.keys(value).length > 0;
+    return typeof value === 'string' && value.trim().length > 0;
+  });
+  if (!presentFields.length) return;
+  var message = '[' + VERSION + '] Clash Party v2.0.3+ DNS guard detected source fields=' + presentFields.join(',') + '; built-in DNS overwrite may be auto-disabled before this JS runs; repository DNS is still applied by this script.';
+  if (typeof log === 'function') log(message);else
+  if (typeof console !== 'undefined' && console.log) console.log(message);
+}
+
 //  模块 I：全局参数覆写
 // ================================================================
 
@@ -1032,8 +1051,11 @@ function overwriteGeneral(config, nodeDnsHints) {
   config.dns['fallback-filter'].geosite = ['gfw', 'geolocation-!cn'];
   config.dns['fallback-filter'].ipcidr = ['240.0.0.0/4', '0.0.0.0/32', '127.0.0.0/8', '10.0.0.0/8', '192.168.0.0/16'];
   if (!Array.isArray(config.dns['fallback-filter'].domain)) config.dns['fallback-filter'].domain = [];
-  // v5.4.1 P0: fake-ip-filter 扩展（Smart 内核不支持 fake-ip-filter-mode: rule，使用传统域名列表）
-  var currentFakeIpFilter = Array.isArray(config.dns['fake-ip-filter']) ? config.dns['fake-ip-filter'] : [];
+  // FIX#182：本覆写使用传统 blacklist 域名列表。Clash Party / 订阅可能带入
+  // fake-ip-filter-mode: rule 或 `rule-set:cn domain` 这类旧项；同时 cleanupSubscription()
+  // 会重建 rule-providers，继续保留源 rule-set 会留下悬空引用并阻断新内核校验。
+  config.dns['fake-ip-filter-mode'] = 'blacklist';
+  var currentFakeIpFilter = sanitizeFakeIpFilterEntries(config.dns['fake-ip-filter']);
   config.dns['fake-ip-filter'] = uniqList(currentFakeIpFilter.concat([
   '+.lan',
   '+.local',
@@ -1139,6 +1161,20 @@ function uniqList(list) {
   });
 }
 
+function sanitizeFakeIpFilterEntries(list) {
+  if (!Array.isArray(list)) return [];
+  return list.map(function (item) {
+    return typeof item === 'string' ? item.trim() : '';
+  }).filter(function (item) {
+    if (!item || /\s/.test(item)) return false;
+    // cleanupSubscription() replaces all source rule-providers with the fused set.
+    if (/^rule-set:/i.test(item)) return false;
+    // Rule-mode entries are incompatible with the blacklist list we emit here.
+    if (/^(?:RULE-SET|GEOSITE|DOMAIN(?:-SUFFIX|-KEYWORD|-REGEX)?|IP-CIDR6?|MATCH),/i.test(item)) return false;
+    return true;
+  });
+}
+
 // ================================================================
 //  模块 J：清理订阅自带的旧组和旧规则
 // ================================================================
@@ -1229,6 +1265,7 @@ function main(config) {
     console.log(`[${VERSION}] Start processing, ${config.proxies.length} proxies`);
     if (!Array.isArray(config['proxy-groups'])) config['proxy-groups'] = [];
     if (!Array.isArray(config.rules)) config.rules = [];
+    logClashPartyDnsGuardBoundary(config);
     var activeNodeServers = collectActiveSubscriptionNodeServers(config.proxies);
     var nodeDnsHints = SckiSubscriptionAdapter.captureNodeDns(config, activeNodeServers, SCKI_SUBSCRIPTION_ADAPTER_PROFILE);
     var nodeDnsReport = overwriteGeneral(config, nodeDnsHints);
