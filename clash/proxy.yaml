@@ -83,3 +83,6 @@ payload:
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,amd.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,tiktok-row.net
+  - DOMAIN-SUFFIX,byted.org
