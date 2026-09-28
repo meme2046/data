@@ -54,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,httpbin.org
   # dev⇣
+  - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN,tagmanager.google.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
