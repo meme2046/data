@@ -22,10 +22,17 @@ tun:
     - gsupservice.exe
     - gchsvc.exe
 hosts:
-  doh.pub: [119.29.29.29]
-  dns.alidns.com: [223.5.5.5, 223.6.6.6]
-  dns.google: [8.8.8.8, 8.8.4.4]
-  cloudflare-dns.com: [1.1.1.1, 1.0.0.1]
+  doh.pub:
+    - 119.29.29.29
+  dns.alidns.com:
+    - 223.5.5.5
+    - 223.6.6.6
+  dns.google:
+    - 8.8.8.8
+    - 8.8.4.4
+  cloudflare-dns.com:
+    - 1.1.1.1
+    - 1.0.0.1
 dns:
   enable: true
   ipv6: true
