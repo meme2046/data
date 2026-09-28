@@ -132,7 +132,6 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,finzfin.com
   - DOMAIN-SUFFIX,solseed.cn
   - DOMAIN-SUFFIX,biliapi.com
