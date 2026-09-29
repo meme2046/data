@@ -88,3 +88,6 @@ payload:
   - DOMAIN-SUFFIX,tiktok-row.net
   - DOMAIN-SUFFIX,byted.org
   - DOMAIN-SUFFIX,byteintlapi.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,sectigo.com
+  - DOMAIN-SUFFIX,microsoft.com
