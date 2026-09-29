@@ -91,6 +91,7 @@ payload:
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,sectigo.com
   - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
