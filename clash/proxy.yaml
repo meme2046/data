@@ -72,6 +72,7 @@ payload:
   - DOMAIN-SUFFIX,digitalplat.org
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,apphb.com
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
