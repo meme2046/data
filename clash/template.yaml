@@ -45,9 +45,14 @@ dns:
     - time.*.com
     - ntp.*.com
     - +.market.xiaomi.com
-    - api.memeniu.xyz
-    - meme.us.kg
-    - +.steamserver.net
+    - api.memeniu.xyz # 我的域名
+    - meme.us.kg # 我的域名
+    - +.steamserver.net # steam国内
+    - +.ydxsafe.com # 民生银行
+    - +.cmbc.com.cn # 民生银行
+    - +.abc.com.cn # 农业银行
+    - +.icbc.com.cn # 工商银行
+    - +.ccb.com # 建设银行
     - +.localdomain
     - +.home.arpa
     - +.msftconnecttest.com
@@ -171,6 +176,21 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
+    +.ydxsafe.com:
+      - 119.29.29.29
+      - 223.5.5.5
+    +.cmbc.com.cn:
+      - 119.29.29.29
+      - 223.5.5.5
+    +.abc.com.cn:
+      - 119.29.29.29
+      - 223.5.5.5
+    +.icbc.com.cn:
+      - 119.29.29.29
+      - 223.5.5.5
+    +.ccb.com:
+      - 119.29.29.29
+      - 223.5.5.5
   listen: 0.0.0.0:1053
   cache-algorithm: arc
   fake-ip-filter-mode: blacklist
