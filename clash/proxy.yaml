@@ -108,6 +108,8 @@ payload:
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,footprintdns.com
+  - DOMAIN-SUFFIX,sectigo.com
+  - DOMAIN-SUFFIX,windows.net
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
