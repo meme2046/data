@@ -65,6 +65,7 @@ payload:
   # dev⇣
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN,tagmanager.google.com
+  - DOMAIN,google.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
