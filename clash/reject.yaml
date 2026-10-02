@@ -10,3 +10,4 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com # 只有你自己需要登录 GTM 后台调试网站时才放行
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,gvt2.com

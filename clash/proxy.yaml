@@ -116,7 +116,7 @@ payload:
   - DOMAIN-SUFFIX,datavaults.co
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,usertrust.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
