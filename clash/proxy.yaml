@@ -10,6 +10,12 @@ payload:
   - PROCESS-NAME,com.bitget.exchange
   - PROCESS-NAME,Dungeons.exe
   - PROCESS-NAME,Dungeons-WinGDK-Shipping.exe
+  - PROCESS-NAME,backgroundTaskHost.exe
+  - PROCESS-NAME,RuntimeBroker.exe
+  - PROCESS-NAME,StoreDesktopExtension.exe
+  - PROCESS-NAME,WinStore.App.exe
+  - PROCESS-NAME,StoreMcpServer.exe
+  - PROCESS-NAME,store.exe
   # Crypto⇣
   - DOMAIN-SUFFIX,cpbox.io
   - DOMAIN-SUFFIX,gate.io
