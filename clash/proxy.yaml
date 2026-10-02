@@ -107,6 +107,7 @@ payload:
   - DOMAIN-SUFFIX,xboxab.net
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,footprintdns.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
