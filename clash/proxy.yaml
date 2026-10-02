@@ -8,6 +8,8 @@ payload:
   - PROCESS-NAME,com.gateio.gateio
   - PROCESS-NAME,com.okinc.okex.gp
   - PROCESS-NAME,com.bitget.exchange
+  - PROCESS-NAME,Dungeons.exe
+  - PROCESS-NAME,Dungeons-WinGDK-Shipping.exe
   # Crypto⇣
   - DOMAIN-SUFFIX,cpbox.io
   - DOMAIN-SUFFIX,gate.io
