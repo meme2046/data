@@ -59,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,httpbin.org
   # dev⇣
@@ -111,6 +112,8 @@ payload:
   - DOMAIN-SUFFIX,sectigo.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,genuitec.com
+  - DOMAIN-SUFFIX,datavaults.co
+  - DOMAIN-SUFFIX,visualstudio.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com

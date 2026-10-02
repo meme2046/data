@@ -84,7 +84,6 @@ payload:
   - DOMAIN,localhost
   - DOMAIN-SUFFIX,3322.net
   - DOMAIN-SUFFIX,ip.gs
-  - DOMAIN-SUFFIX,ifconfig.me
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ident.me
