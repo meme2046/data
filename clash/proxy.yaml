@@ -110,6 +110,7 @@ payload:
   - DOMAIN-SUFFIX,footprintdns.com
   - DOMAIN-SUFFIX,sectigo.com
   - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,genuitec.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
