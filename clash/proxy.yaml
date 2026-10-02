@@ -114,6 +114,7 @@ payload:
   - DOMAIN-SUFFIX,genuitec.com
   - DOMAIN-SUFFIX,datavaults.co
   - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,googleadservices.com
   # - DOMAIN-KEYWORD,googlesyndication
   # - DOMAIN-KEYWORD,doubleclick
   # - DOMAIN-WILDCARD,ub*.com
