@@ -92,6 +92,7 @@ payload:
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,amd.com
