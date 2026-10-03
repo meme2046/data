@@ -454,12 +454,12 @@ profile:
   store-selected: true
   store-fake-ip: true
   tracing: true
-geo-auto-update: true
-geox-url:
-  geoip: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat
-  mmdb: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb
-  asn: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb
-  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+# geo-auto-update: true
+# geox-url:
+#   geoip: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat
+#   mmdb: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb
+#   asn: https://fastly.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb
+#   geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
 sniffer:
   enable: true
   parse-pure-ip: true
