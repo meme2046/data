@@ -57,7 +57,7 @@ payload:
   - DOMAIN-SUFFIX,1inch.com
   - DOMAIN-SUFFIX,quickswap.exchange
   # steam, 游戏相关⇣
-  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
   - DOMAIN-SUFFIX,steamusercontent.com # 截图、创意工坊文件、头像资源
