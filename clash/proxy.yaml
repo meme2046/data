@@ -86,13 +86,14 @@ payload:
   - DOMAIN-SUFFIX,apphb.com
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-WILDCARD,*lra8j.com
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - DOMAIN-SUFFIX,tableconvert.com
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,amd.com
