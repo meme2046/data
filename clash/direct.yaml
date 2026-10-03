@@ -119,7 +119,7 @@ payload:
   - DOMAIN-SUFFIX,ub88play.com
   - DOMAIN-SUFFIX,settlementcloud.com
   - DOMAIN-SUFFIX,gisturog.com
-  - DOMAIN-WILDCARD,ub*.com
+  - DOMAIN-REGEX,^ub.*\.com$
   # bilibili
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilibili.com
@@ -163,7 +163,7 @@ payload:
   - DOMAIN-SUFFIX,st.dl.eccdnz.com # CDN 节点直连
   - DOMAIN-SUFFIX,edgesuite.net # CDN 节点直连
   - DOMAIN-SUFFIX,kleientertainment.com # klei游戏核心业务域名
-  - DOMAIN-WILDCARD,lobby*.klei.com
+  - DOMAIN-REGEX,^lobby.*\.klei\.com$
   - DOMAIN-WILDCARD,dst.*.klei.com
   - DOMAIN-SUFFIX,5211game.com
   # 其他
