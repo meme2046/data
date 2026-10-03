@@ -1,7 +1,7 @@
 payload:
   # google
   - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-WILDCARD,*lra8j.com
+  - DOMAIN-KEYWORD,lra8j.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN,tagmanager.google.com
   - DOMAIN-SUFFIX,dl.google.com
@@ -61,7 +61,7 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
   - DOMAIN-SUFFIX,steamusercontent.com # 截图、创意工坊文件、头像资源
-  - DOMAIN-WILDCARD,*-sgp*.steamserver.net
+  - DOMAIN-KEYWORD,-sgp1.steamserver.net
   # ip查询⇣
   - DOMAIN-SUFFIX,cip.cc
   - DOMAIN-SUFFIX,whoer.net
