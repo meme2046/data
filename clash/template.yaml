@@ -60,6 +60,7 @@ dns:
     - localhost.ptlogin2.qq.com
     - localhost.sec.qq.com
     - localhost.work.weixin.qq.com
+    - +.qq.com
     - +.in-addr.arpa
     - +.ip6.arpa
     - time.*.gov
