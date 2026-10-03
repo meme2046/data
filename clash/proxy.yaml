@@ -1,4 +1,13 @@
 payload:
+  # google
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-WILDCARD,*lra8j.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN,tagmanager.google.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googleadservices.com
   # PROCESS
   - PROCESS-NAME,studio64.exe # android studio
   - PROCESS-NAME,mailsync.exe
@@ -64,9 +73,6 @@ payload:
   - DOMAIN-SUFFIX,httpbin.org
   # dev⇣
   - DOMAIN-SUFFIX,jsdelivr.net
-  - DOMAIN,tagmanager.google.com
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,cloudflare.com
@@ -86,22 +92,18 @@ payload:
   - DOMAIN-SUFFIX,apphb.com
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-WILDCARD,*lra8j.com
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - DOMAIN-SUFFIX,tableconvert.com
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,tiktok-row.net
   - DOMAIN-SUFFIX,byted.org
   - DOMAIN-SUFFIX,byteintlapi.com
-  - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,sectigo.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,msftconnecttest.com
@@ -118,8 +120,4 @@ payload:
   - DOMAIN-SUFFIX,genuitec.com
   - DOMAIN-SUFFIX,datavaults.co
   - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,usertrust.com
-  # - DOMAIN-KEYWORD,googlesyndication
-  # - DOMAIN-KEYWORD,doubleclick
-  # - DOMAIN-WILDCARD,ub*.com
