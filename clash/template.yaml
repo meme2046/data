@@ -47,6 +47,7 @@ dns:
     - +.market.xiaomi.com
     - api.memeniu.xyz # 我的域名
     - meme.us.kg # 我的域名
+    - +.eco.dingtalkapps.com
     - +.steamserver.net # steam国内
     - +.ydxsafe.com # 民生银行
     - +.cmbc.com.cn # 民生银行
@@ -164,6 +165,11 @@ dns:
       - https://dns.google/dns-query
     api.memeniu.xyz:
       - 119.29.29.29
+      - https://dns.alidns.com/dns-query
+      - https://[2402:4e00::]/dns-query
+      - https://[2400:3200::1]/dns-query
+    +.eco.dingtalkapps.com:
+      - 223.5.5.5
       - https://dns.alidns.com/dns-query
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
