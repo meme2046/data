@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,googleadservices.com
   # PROCESS
   - PROCESS-NAME,studio64.exe # android studio
+  - PROCESS-NAME,com.docker.backend.exe
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,YoutubeDownloader.exe
   - PROCESS-NAME,com.android.vending
