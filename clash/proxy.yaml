@@ -8,16 +8,18 @@ payload:
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googleadservices.com
-  # PROCESS
-  - PROCESS-NAME,studio64.exe # android studio
-  - PROCESS-NAME,com.docker.backend.exe
-  - PROCESS-NAME,mailsync.exe
-  - PROCESS-NAME,YoutubeDownloader.exe
+  # android process
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.gateio.gateio
   - PROCESS-NAME,com.okinc.okex.gp
   - PROCESS-NAME,com.bitget.exchange
+  - PROCESS-NAME,com.valvesoftware.android.steam.community # steam
+  # PROCESS
+  - PROCESS-NAME,studio64.exe # android studio
+  - PROCESS-NAME,com.docker.backend.exe
+  - PROCESS-NAME,mailsync.exe
+  - PROCESS-NAME,YoutubeDownloader.exe
   - PROCESS-NAME,Dungeons.exe
   - PROCESS-NAME,Dungeons-WinGDK-Shipping.exe
   - PROCESS-NAME,backgroundTaskHost.exe
