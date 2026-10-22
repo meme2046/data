@@ -59,7 +59,9 @@ payload:
   - DOMAIN-SUFFIX,1inch.io
   - DOMAIN-SUFFIX,1inch.com
   - DOMAIN-SUFFIX,quickswap.exchange
-  # steam, 游戏相关⇣
+  # 游戏相关⇣
+  - DOMAIN-SUFFIX,norestforthewickedbackend.net
+  - DOMAIN-SUFFIX,moonbackend.net
   - DOMAIN,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com
