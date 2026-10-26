@@ -16,9 +16,8 @@ payload:
   - PROCESS-NAME,com.bitget.exchange
   - PROCESS-NAME,com.valvesoftware.android.steam.community # steam
   # PROCESS
-  - PROCESS-NAME,NoRestForTheWicked.exe
   - PROCESS-NAME,studio64.exe # android studio
-  - PROCESS-NAME,com.docker.backend.exe
+  - PROCESS-NAME,com.docker.backend.exe # docker
   - PROCESS-NAME,mailsync.exe
   - PROCESS-NAME,YoutubeDownloader.exe
   - PROCESS-NAME,Dungeons.exe
@@ -61,8 +60,6 @@ payload:
   - DOMAIN-SUFFIX,1inch.com
   - DOMAIN-SUFFIX,quickswap.exchange
   # 游戏相关⇣
-  - DOMAIN-SUFFIX,norestforthewickedbackend.net
-  - DOMAIN-SUFFIX,moonbackend.net
   - DOMAIN,steampowered.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,klei.com

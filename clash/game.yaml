@@ -1,0 +1,5 @@
+payload:
+  # 恶意不息
+  - DOMAIN-SUFFIX,norestforthewickedbackend.net
+  - DOMAIN-SUFFIX,moonbackend.net
+  - PROCESS-NAME,NoRestForTheWicked.exe
