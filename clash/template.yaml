@@ -140,7 +140,6 @@ dns:
       - 10.0.0.0/8
       - 192.168.0.0/16
   direct-nameserver-follow-policy: true
-  prefer-h3: false
   nameserver-policy:
     +.jsdelivr.net:
       - https://cloudflare-dns.com/dns-query
@@ -199,7 +198,6 @@ dns:
       - 119.29.29.29
       - 223.5.5.5
   listen: 0.0.0.0:1053
-  cache-algorithm: arc
   fake-ip-filter-mode: blacklist
   proxy-server-nameserver-policy:
     cdn.jiandaoyun.com:
