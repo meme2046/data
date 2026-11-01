@@ -2,7 +2,7 @@ ipv6: true
 mode: rule
 mixed-port: 7890
 allow-lan: true
-log-level: warning
+log-level: info
 tun:
   enable: true
   stack: mips
