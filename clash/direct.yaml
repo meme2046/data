@@ -7,9 +7,9 @@ payload:
   # 我的域名/IP
   - IP-CIDR,43.132.235.9/32 # 香港
   - IP-CIDR,43.155.213.92/32 # 韩国
-  - DOMAIN,memeniu.xyz
-  - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
-  - DOMAIN,meme.us.kg # myDomain cloudflare cdn
+  - DOMAIN-SUFFIX,memeniu.xyz # my domain dnspod
+  - DOMAIN-SUFFIX,meme.us.kg # my domain cloudflare
+  - DOMAIN-SUFFIX,meme.qzz.io # my domain cloudflare
   # - DOMAIN-SUFFIX,recaptcha.net
   # PROCESS
   # - PROCESS-NAME,Doubao.exe
