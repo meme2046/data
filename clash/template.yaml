@@ -45,8 +45,9 @@ dns:
     - time.*.com
     - ntp.*.com
     - +.market.xiaomi.com
-    - api.memeniu.xyz # 我的域名
-    - meme.us.kg # 我的域名
+    - +.memeniu.xyz # my domain dnspod
+    - +.meme.us.kg # my domain cloudflare
+    - +.meme.qzz.io # my domain cloudflare
     - +.eco.dingtalkapps.com
     - +.steamserver.net # steam国内
     - +.ydxsafe.com # 民生银行
@@ -162,7 +163,7 @@ dns:
     geosite:geolocation-!cn:
       - https://cloudflare-dns.com/dns-query
       - https://dns.google/dns-query
-    api.memeniu.xyz:
+    +.memeniu.xyz:
       - 119.29.29.29
       - https://dns.alidns.com/dns-query
       - https://[2402:4e00::]/dns-query
@@ -172,7 +173,12 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://[2402:4e00::]/dns-query
       - https://[2400:3200::1]/dns-query
-    meme.us.kg:
+    +.meme.us.kg:
+      - 119.29.29.29
+      - https://dns.alidns.com/dns-query
+      - https://[2402:4e00::]/dns-query
+      - https://[2400:3200::1]/dns-query
+    +.meme.qzz.io:
       - 119.29.29.29
       - https://dns.alidns.com/dns-query
       - https://[2402:4e00::]/dns-query
@@ -205,9 +211,19 @@ dns:
       - https://dns.google/dns-query
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-    memeniu.xyz:
-      - https://dns.google/dns-query
+    +.memeniu.xyz:
       - https://cloudflare-dns.com/dns-query
+      - https://dns.google/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    +.meme.us.kg:
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.google/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    +.meme.qzz.io:
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.google/dns-query
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
 profile:
