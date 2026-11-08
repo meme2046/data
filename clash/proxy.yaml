@@ -98,6 +98,7 @@ payload:
   - DOMAIN-SUFFIX,apphb.com
   # - DOMAIN-SUFFIX,docker.io # docker镜像拉取
   # common⇣
+  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,mypikpak.com # pikpak
   - DOMAIN-SUFFIX,tableconvert.com
   - DOMAIN-SUFFIX,telegram.org
