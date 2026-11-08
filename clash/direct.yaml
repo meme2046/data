@@ -4,7 +4,9 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - DST-PORT,10999
   - DST-PORT,10998
-  # v6域名
+  # 我的域名/IP
+  - IP-CIDR,43.132.235.9/32 # 香港
+  - IP-CIDR,43.155.213.92/32 # 韩国
   - DOMAIN,memeniu.xyz
   - DOMAIN,api.memeniu.xyz # myDomain dnspod cdn
   - DOMAIN,meme.us.kg # myDomain cloudflare cdn
